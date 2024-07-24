@@ -19,7 +19,7 @@ int main()
     namedWindow("img");
     imshow("img", img);
     int fps = 30;
-    int delay = cvRound(1000 / 30);
+    int delay = cvRound(1000 / fps);
     Scalar a(0, 0, 0);
     TickMeter tm;
     TickMeter tm2;
