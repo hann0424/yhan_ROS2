@@ -117,6 +117,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named drawText
+
+# Build rule for target.
+drawText: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drawText
+.PHONY : drawText
+
+# fast build rule for target.
+drawText/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drawText.dir/build.make CMakeFiles/drawText.dir/build
+.PHONY : drawText/fast
+
+#=============================================================================
+# Target rules for targets named keyboard
+
+# Build rule for target.
+keyboard: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 keyboard
+.PHONY : keyboard
+
+# fast build rule for target.
+keyboard/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard.dir/build.make CMakeFiles/keyboard.dir/build
+.PHONY : keyboard/fast
+
+#=============================================================================
+# Target rules for targets named keyboard2
+
+# Build rule for target.
+keyboard2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 keyboard2
+.PHONY : keyboard2
+
+# fast build rule for target.
+keyboard2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard2.dir/build.make CMakeFiles/keyboard2.dir/build
+.PHONY : keyboard2/fast
+
+#=============================================================================
+# Target rules for targets named line
+
+# Build rule for target.
+line: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 line
+.PHONY : line
+
+# fast build rule for target.
+line/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line.dir/build.make CMakeFiles/line.dir/build
+.PHONY : line/fast
+
+#=============================================================================
+# Target rules for targets named rectangleTest
+
+# Build rule for target.
+rectangleTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 rectangleTest
+.PHONY : rectangleTest
+
+# fast build rule for target.
+rectangleTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rectangleTest.dir/build.make CMakeFiles/rectangleTest.dir/build
+.PHONY : rectangleTest/fast
+
+#=============================================================================
 # Target rules for targets named video
 
 # Build rule for target.
@@ -128,6 +193,126 @@ video: cmake_check_build_system
 video/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/build
 .PHONY : video/fast
+
+drawText.o: drawText.cpp.o
+.PHONY : drawText.o
+
+# target to build an object file
+drawText.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drawText.dir/build.make CMakeFiles/drawText.dir/drawText.cpp.o
+.PHONY : drawText.cpp.o
+
+drawText.i: drawText.cpp.i
+.PHONY : drawText.i
+
+# target to preprocess a source file
+drawText.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drawText.dir/build.make CMakeFiles/drawText.dir/drawText.cpp.i
+.PHONY : drawText.cpp.i
+
+drawText.s: drawText.cpp.s
+.PHONY : drawText.s
+
+# target to generate assembly for a file
+drawText.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drawText.dir/build.make CMakeFiles/drawText.dir/drawText.cpp.s
+.PHONY : drawText.cpp.s
+
+keyboard.o: keyboard.cpp.o
+.PHONY : keyboard.o
+
+# target to build an object file
+keyboard.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard.dir/build.make CMakeFiles/keyboard.dir/keyboard.cpp.o
+.PHONY : keyboard.cpp.o
+
+keyboard.i: keyboard.cpp.i
+.PHONY : keyboard.i
+
+# target to preprocess a source file
+keyboard.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard.dir/build.make CMakeFiles/keyboard.dir/keyboard.cpp.i
+.PHONY : keyboard.cpp.i
+
+keyboard.s: keyboard.cpp.s
+.PHONY : keyboard.s
+
+# target to generate assembly for a file
+keyboard.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard.dir/build.make CMakeFiles/keyboard.dir/keyboard.cpp.s
+.PHONY : keyboard.cpp.s
+
+keyboard2.o: keyboard2.cpp.o
+.PHONY : keyboard2.o
+
+# target to build an object file
+keyboard2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard2.dir/build.make CMakeFiles/keyboard2.dir/keyboard2.cpp.o
+.PHONY : keyboard2.cpp.o
+
+keyboard2.i: keyboard2.cpp.i
+.PHONY : keyboard2.i
+
+# target to preprocess a source file
+keyboard2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard2.dir/build.make CMakeFiles/keyboard2.dir/keyboard2.cpp.i
+.PHONY : keyboard2.cpp.i
+
+keyboard2.s: keyboard2.cpp.s
+.PHONY : keyboard2.s
+
+# target to generate assembly for a file
+keyboard2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard2.dir/build.make CMakeFiles/keyboard2.dir/keyboard2.cpp.s
+.PHONY : keyboard2.cpp.s
+
+line.o: line.cpp.o
+.PHONY : line.o
+
+# target to build an object file
+line.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line.dir/build.make CMakeFiles/line.dir/line.cpp.o
+.PHONY : line.cpp.o
+
+line.i: line.cpp.i
+.PHONY : line.i
+
+# target to preprocess a source file
+line.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line.dir/build.make CMakeFiles/line.dir/line.cpp.i
+.PHONY : line.cpp.i
+
+line.s: line.cpp.s
+.PHONY : line.s
+
+# target to generate assembly for a file
+line.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line.dir/build.make CMakeFiles/line.dir/line.cpp.s
+.PHONY : line.cpp.s
+
+rectangleTest.o: rectangleTest.cpp.o
+.PHONY : rectangleTest.o
+
+# target to build an object file
+rectangleTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rectangleTest.dir/build.make CMakeFiles/rectangleTest.dir/rectangleTest.cpp.o
+.PHONY : rectangleTest.cpp.o
+
+rectangleTest.i: rectangleTest.cpp.i
+.PHONY : rectangleTest.i
+
+# target to preprocess a source file
+rectangleTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rectangleTest.dir/build.make CMakeFiles/rectangleTest.dir/rectangleTest.cpp.i
+.PHONY : rectangleTest.cpp.i
+
+rectangleTest.s: rectangleTest.cpp.s
+.PHONY : rectangleTest.s
+
+# target to generate assembly for a file
+rectangleTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rectangleTest.dir/build.make CMakeFiles/rectangleTest.dir/rectangleTest.cpp.s
+.PHONY : rectangleTest.cpp.s
 
 video.o: video.cpp.o
 .PHONY : video.o
@@ -161,7 +346,27 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... drawText"
+	@echo "... keyboard"
+	@echo "... keyboard2"
+	@echo "... line"
+	@echo "... rectangleTest"
 	@echo "... video"
+	@echo "... drawText.o"
+	@echo "... drawText.i"
+	@echo "... drawText.s"
+	@echo "... keyboard.o"
+	@echo "... keyboard.i"
+	@echo "... keyboard.s"
+	@echo "... keyboard2.o"
+	@echo "... keyboard2.i"
+	@echo "... keyboard2.s"
+	@echo "... line.o"
+	@echo "... line.i"
+	@echo "... line.s"
+	@echo "... rectangleTest.o"
+	@echo "... rectangleTest.i"
+	@echo "... rectangleTest.s"
 	@echo "... video.o"
 	@echo "... video.i"
 	@echo "... video.s"

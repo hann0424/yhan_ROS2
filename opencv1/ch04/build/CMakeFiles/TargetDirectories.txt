@@ -1,3 +1,8 @@
+/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles/drawText.dir
+/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles/keyboard.dir
+/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles/keyboard2.dir
+/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles/line.dir
+/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles/rectangleTest.dir
 /home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles/video.dir
 /home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles/edit_cache.dir
 /home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles/rebuild_cache.dir
