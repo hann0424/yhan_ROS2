@@ -8,7 +8,7 @@ String folder = "/home/yhan/yhan_ROS2/data/";
 int main()
 {
     Scalar white = Scalar(255, 255, 255);
-    Scalar yellow = Scalar(0, 255, 255);
+    Scalar yellow = Scalar(1, 255, 255);
     Scalar blue = Scalar(255, 0, 0);
     Scalar green = Scalar(0, 255, 0);
     Scalar red = Scalar(0, 0, 255);
