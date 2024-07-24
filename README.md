@@ -38,7 +38,7 @@ cmake -> cmakelist.txt -> make  ||  CMakeLists 파일 제대로 작성하는 것
 5. matOp5 - outer memories
 6. rectOp, vecOp - rect, vector, scalar, color
 > *OpenCV -> BGR -> OpenCV 첫 개발당시 사용된 비디오 카메라 코덱이 BGR 형식 사용
-7. video - videocapture
+7. video - 카메라 입력처리, 동영상 파일처리, 저장
 8. line - 선 그려보기
 9. rectangleTest - 여러 도형 그려보기
 10. drawText - 글씨 출
