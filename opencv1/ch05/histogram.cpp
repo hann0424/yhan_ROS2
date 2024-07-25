@@ -3,7 +3,7 @@
 
 using namespace cv;
 using namespace std;
-String folder = "/home/aa/kdta_ROS2/opencv/data/";
+String folder = "/home/yhan/yhan_ROS2/data/";
 
 int main()
 {
