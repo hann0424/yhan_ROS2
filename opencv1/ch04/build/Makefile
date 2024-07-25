@@ -130,6 +130,32 @@ drawText/fast:
 .PHONY : drawText/fast
 
 #=============================================================================
+# Target rules for targets named fileStorageReadTest
+
+# Build rule for target.
+fileStorageReadTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fileStorageReadTest
+.PHONY : fileStorageReadTest
+
+# fast build rule for target.
+fileStorageReadTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileStorageReadTest.dir/build.make CMakeFiles/fileStorageReadTest.dir/build
+.PHONY : fileStorageReadTest/fast
+
+#=============================================================================
+# Target rules for targets named fileStorageTest
+
+# Build rule for target.
+fileStorageTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fileStorageTest
+.PHONY : fileStorageTest
+
+# fast build rule for target.
+fileStorageTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileStorageTest.dir/build.make CMakeFiles/fileStorageTest.dir/build
+.PHONY : fileStorageTest/fast
+
+#=============================================================================
 # Target rules for targets named keyboard
 
 # Build rule for target.
@@ -169,6 +195,45 @@ line/fast:
 .PHONY : line/fast
 
 #=============================================================================
+# Target rules for targets named maskSetTo
+
+# Build rule for target.
+maskSetTo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 maskSetTo
+.PHONY : maskSetTo
+
+# fast build rule for target.
+maskSetTo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maskSetTo.dir/build.make CMakeFiles/maskSetTo.dir/build
+.PHONY : maskSetTo/fast
+
+#=============================================================================
+# Target rules for targets named mouseRGBPoint
+
+# Build rule for target.
+mouseRGBPoint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mouseRGBPoint
+.PHONY : mouseRGBPoint
+
+# fast build rule for target.
+mouseRGBPoint/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mouseRGBPoint.dir/build.make CMakeFiles/mouseRGBPoint.dir/build
+.PHONY : mouseRGBPoint/fast
+
+#=============================================================================
+# Target rules for targets named mouseTest
+
+# Build rule for target.
+mouseTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mouseTest
+.PHONY : mouseTest
+
+# fast build rule for target.
+mouseTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mouseTest.dir/build.make CMakeFiles/mouseTest.dir/build
+.PHONY : mouseTest/fast
+
+#=============================================================================
 # Target rules for targets named rectangleTest
 
 # Build rule for target.
@@ -180,6 +245,32 @@ rectangleTest: cmake_check_build_system
 rectangleTest/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rectangleTest.dir/build.make CMakeFiles/rectangleTest.dir/build
 .PHONY : rectangleTest/fast
+
+#=============================================================================
+# Target rules for targets named trackBarTest
+
+# Build rule for target.
+trackBarTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 trackBarTest
+.PHONY : trackBarTest
+
+# fast build rule for target.
+trackBarTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trackBarTest.dir/build.make CMakeFiles/trackBarTest.dir/build
+.PHONY : trackBarTest/fast
+
+#=============================================================================
+# Target rules for targets named trackBarTest2
+
+# Build rule for target.
+trackBarTest2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 trackBarTest2
+.PHONY : trackBarTest2
+
+# fast build rule for target.
+trackBarTest2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trackBarTest2.dir/build.make CMakeFiles/trackBarTest2.dir/build
+.PHONY : trackBarTest2/fast
 
 #=============================================================================
 # Target rules for targets named video
@@ -217,6 +308,54 @@ drawText.s: drawText.cpp.s
 drawText.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/drawText.dir/build.make CMakeFiles/drawText.dir/drawText.cpp.s
 .PHONY : drawText.cpp.s
+
+fileStorageReadTest.o: fileStorageReadTest.cpp.o
+.PHONY : fileStorageReadTest.o
+
+# target to build an object file
+fileStorageReadTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileStorageReadTest.dir/build.make CMakeFiles/fileStorageReadTest.dir/fileStorageReadTest.cpp.o
+.PHONY : fileStorageReadTest.cpp.o
+
+fileStorageReadTest.i: fileStorageReadTest.cpp.i
+.PHONY : fileStorageReadTest.i
+
+# target to preprocess a source file
+fileStorageReadTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileStorageReadTest.dir/build.make CMakeFiles/fileStorageReadTest.dir/fileStorageReadTest.cpp.i
+.PHONY : fileStorageReadTest.cpp.i
+
+fileStorageReadTest.s: fileStorageReadTest.cpp.s
+.PHONY : fileStorageReadTest.s
+
+# target to generate assembly for a file
+fileStorageReadTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileStorageReadTest.dir/build.make CMakeFiles/fileStorageReadTest.dir/fileStorageReadTest.cpp.s
+.PHONY : fileStorageReadTest.cpp.s
+
+fileStorageTest.o: fileStorageTest.cpp.o
+.PHONY : fileStorageTest.o
+
+# target to build an object file
+fileStorageTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileStorageTest.dir/build.make CMakeFiles/fileStorageTest.dir/fileStorageTest.cpp.o
+.PHONY : fileStorageTest.cpp.o
+
+fileStorageTest.i: fileStorageTest.cpp.i
+.PHONY : fileStorageTest.i
+
+# target to preprocess a source file
+fileStorageTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileStorageTest.dir/build.make CMakeFiles/fileStorageTest.dir/fileStorageTest.cpp.i
+.PHONY : fileStorageTest.cpp.i
+
+fileStorageTest.s: fileStorageTest.cpp.s
+.PHONY : fileStorageTest.s
+
+# target to generate assembly for a file
+fileStorageTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileStorageTest.dir/build.make CMakeFiles/fileStorageTest.dir/fileStorageTest.cpp.s
+.PHONY : fileStorageTest.cpp.s
 
 keyboard.o: keyboard.cpp.o
 .PHONY : keyboard.o
@@ -290,6 +429,78 @@ line.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/line.dir/build.make CMakeFiles/line.dir/line.cpp.s
 .PHONY : line.cpp.s
 
+maskSetTo.o: maskSetTo.cpp.o
+.PHONY : maskSetTo.o
+
+# target to build an object file
+maskSetTo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maskSetTo.dir/build.make CMakeFiles/maskSetTo.dir/maskSetTo.cpp.o
+.PHONY : maskSetTo.cpp.o
+
+maskSetTo.i: maskSetTo.cpp.i
+.PHONY : maskSetTo.i
+
+# target to preprocess a source file
+maskSetTo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maskSetTo.dir/build.make CMakeFiles/maskSetTo.dir/maskSetTo.cpp.i
+.PHONY : maskSetTo.cpp.i
+
+maskSetTo.s: maskSetTo.cpp.s
+.PHONY : maskSetTo.s
+
+# target to generate assembly for a file
+maskSetTo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maskSetTo.dir/build.make CMakeFiles/maskSetTo.dir/maskSetTo.cpp.s
+.PHONY : maskSetTo.cpp.s
+
+mouseRGBPoint.o: mouseRGBPoint.cpp.o
+.PHONY : mouseRGBPoint.o
+
+# target to build an object file
+mouseRGBPoint.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mouseRGBPoint.dir/build.make CMakeFiles/mouseRGBPoint.dir/mouseRGBPoint.cpp.o
+.PHONY : mouseRGBPoint.cpp.o
+
+mouseRGBPoint.i: mouseRGBPoint.cpp.i
+.PHONY : mouseRGBPoint.i
+
+# target to preprocess a source file
+mouseRGBPoint.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mouseRGBPoint.dir/build.make CMakeFiles/mouseRGBPoint.dir/mouseRGBPoint.cpp.i
+.PHONY : mouseRGBPoint.cpp.i
+
+mouseRGBPoint.s: mouseRGBPoint.cpp.s
+.PHONY : mouseRGBPoint.s
+
+# target to generate assembly for a file
+mouseRGBPoint.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mouseRGBPoint.dir/build.make CMakeFiles/mouseRGBPoint.dir/mouseRGBPoint.cpp.s
+.PHONY : mouseRGBPoint.cpp.s
+
+mouseTest.o: mouseTest.cpp.o
+.PHONY : mouseTest.o
+
+# target to build an object file
+mouseTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mouseTest.dir/build.make CMakeFiles/mouseTest.dir/mouseTest.cpp.o
+.PHONY : mouseTest.cpp.o
+
+mouseTest.i: mouseTest.cpp.i
+.PHONY : mouseTest.i
+
+# target to preprocess a source file
+mouseTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mouseTest.dir/build.make CMakeFiles/mouseTest.dir/mouseTest.cpp.i
+.PHONY : mouseTest.cpp.i
+
+mouseTest.s: mouseTest.cpp.s
+.PHONY : mouseTest.s
+
+# target to generate assembly for a file
+mouseTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mouseTest.dir/build.make CMakeFiles/mouseTest.dir/mouseTest.cpp.s
+.PHONY : mouseTest.cpp.s
+
 rectangleTest.o: rectangleTest.cpp.o
 .PHONY : rectangleTest.o
 
@@ -313,6 +524,54 @@ rectangleTest.s: rectangleTest.cpp.s
 rectangleTest.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rectangleTest.dir/build.make CMakeFiles/rectangleTest.dir/rectangleTest.cpp.s
 .PHONY : rectangleTest.cpp.s
+
+trackBarTest.o: trackBarTest.cpp.o
+.PHONY : trackBarTest.o
+
+# target to build an object file
+trackBarTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trackBarTest.dir/build.make CMakeFiles/trackBarTest.dir/trackBarTest.cpp.o
+.PHONY : trackBarTest.cpp.o
+
+trackBarTest.i: trackBarTest.cpp.i
+.PHONY : trackBarTest.i
+
+# target to preprocess a source file
+trackBarTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trackBarTest.dir/build.make CMakeFiles/trackBarTest.dir/trackBarTest.cpp.i
+.PHONY : trackBarTest.cpp.i
+
+trackBarTest.s: trackBarTest.cpp.s
+.PHONY : trackBarTest.s
+
+# target to generate assembly for a file
+trackBarTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trackBarTest.dir/build.make CMakeFiles/trackBarTest.dir/trackBarTest.cpp.s
+.PHONY : trackBarTest.cpp.s
+
+trackBarTest2.o: trackBarTest2.cpp.o
+.PHONY : trackBarTest2.o
+
+# target to build an object file
+trackBarTest2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trackBarTest2.dir/build.make CMakeFiles/trackBarTest2.dir/trackBarTest2.cpp.o
+.PHONY : trackBarTest2.cpp.o
+
+trackBarTest2.i: trackBarTest2.cpp.i
+.PHONY : trackBarTest2.i
+
+# target to preprocess a source file
+trackBarTest2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trackBarTest2.dir/build.make CMakeFiles/trackBarTest2.dir/trackBarTest2.cpp.i
+.PHONY : trackBarTest2.cpp.i
+
+trackBarTest2.s: trackBarTest2.cpp.s
+.PHONY : trackBarTest2.s
+
+# target to generate assembly for a file
+trackBarTest2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trackBarTest2.dir/build.make CMakeFiles/trackBarTest2.dir/trackBarTest2.cpp.s
+.PHONY : trackBarTest2.cpp.s
 
 video.o: video.cpp.o
 .PHONY : video.o
@@ -347,14 +606,27 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... drawText"
+	@echo "... fileStorageReadTest"
+	@echo "... fileStorageTest"
 	@echo "... keyboard"
 	@echo "... keyboard2"
 	@echo "... line"
+	@echo "... maskSetTo"
+	@echo "... mouseRGBPoint"
+	@echo "... mouseTest"
 	@echo "... rectangleTest"
+	@echo "... trackBarTest"
+	@echo "... trackBarTest2"
 	@echo "... video"
 	@echo "... drawText.o"
 	@echo "... drawText.i"
 	@echo "... drawText.s"
+	@echo "... fileStorageReadTest.o"
+	@echo "... fileStorageReadTest.i"
+	@echo "... fileStorageReadTest.s"
+	@echo "... fileStorageTest.o"
+	@echo "... fileStorageTest.i"
+	@echo "... fileStorageTest.s"
 	@echo "... keyboard.o"
 	@echo "... keyboard.i"
 	@echo "... keyboard.s"
@@ -364,9 +636,24 @@ help:
 	@echo "... line.o"
 	@echo "... line.i"
 	@echo "... line.s"
+	@echo "... maskSetTo.o"
+	@echo "... maskSetTo.i"
+	@echo "... maskSetTo.s"
+	@echo "... mouseRGBPoint.o"
+	@echo "... mouseRGBPoint.i"
+	@echo "... mouseRGBPoint.s"
+	@echo "... mouseTest.o"
+	@echo "... mouseTest.i"
+	@echo "... mouseTest.s"
 	@echo "... rectangleTest.o"
 	@echo "... rectangleTest.i"
 	@echo "... rectangleTest.s"
+	@echo "... trackBarTest.o"
+	@echo "... trackBarTest.i"
+	@echo "... trackBarTest.s"
+	@echo "... trackBarTest2.o"
+	@echo "... trackBarTest2.i"
+	@echo "... trackBarTest2.s"
 	@echo "... video.o"
 	@echo "... video.i"
 	@echo "... video.s"

@@ -64,10 +64,17 @@ CMAKE_BINARY_DIR = /home/yhan/yhan_ROS2/opencv1/ch04/build
 
 # The main recursive "all" target.
 all: CMakeFiles/drawText.dir/all
+all: CMakeFiles/fileStorageReadTest.dir/all
+all: CMakeFiles/fileStorageTest.dir/all
 all: CMakeFiles/keyboard.dir/all
 all: CMakeFiles/keyboard2.dir/all
 all: CMakeFiles/line.dir/all
+all: CMakeFiles/maskSetTo.dir/all
+all: CMakeFiles/mouseRGBPoint.dir/all
+all: CMakeFiles/mouseTest.dir/all
 all: CMakeFiles/rectangleTest.dir/all
+all: CMakeFiles/trackBarTest.dir/all
+all: CMakeFiles/trackBarTest2.dir/all
 all: CMakeFiles/video.dir/all
 .PHONY : all
 
@@ -77,10 +84,17 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/drawText.dir/clean
+clean: CMakeFiles/fileStorageReadTest.dir/clean
+clean: CMakeFiles/fileStorageTest.dir/clean
 clean: CMakeFiles/keyboard.dir/clean
 clean: CMakeFiles/keyboard2.dir/clean
 clean: CMakeFiles/line.dir/clean
+clean: CMakeFiles/maskSetTo.dir/clean
+clean: CMakeFiles/mouseRGBPoint.dir/clean
+clean: CMakeFiles/mouseTest.dir/clean
 clean: CMakeFiles/rectangleTest.dir/clean
+clean: CMakeFiles/trackBarTest.dir/clean
+clean: CMakeFiles/trackBarTest2.dir/clean
 clean: CMakeFiles/video.dir/clean
 .PHONY : clean
 
@@ -111,13 +125,65 @@ CMakeFiles/drawText.dir/clean:
 .PHONY : CMakeFiles/drawText.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/fileStorageReadTest.dir
+
+# All Build rule for target.
+CMakeFiles/fileStorageReadTest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileStorageReadTest.dir/build.make CMakeFiles/fileStorageReadTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileStorageReadTest.dir/build.make CMakeFiles/fileStorageReadTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles --progress-num=3,4 "Built target fileStorageReadTest"
+.PHONY : CMakeFiles/fileStorageReadTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fileStorageReadTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fileStorageReadTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles 0
+.PHONY : CMakeFiles/fileStorageReadTest.dir/rule
+
+# Convenience name for target.
+fileStorageReadTest: CMakeFiles/fileStorageReadTest.dir/rule
+.PHONY : fileStorageReadTest
+
+# clean rule for target.
+CMakeFiles/fileStorageReadTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileStorageReadTest.dir/build.make CMakeFiles/fileStorageReadTest.dir/clean
+.PHONY : CMakeFiles/fileStorageReadTest.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fileStorageTest.dir
+
+# All Build rule for target.
+CMakeFiles/fileStorageTest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileStorageTest.dir/build.make CMakeFiles/fileStorageTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileStorageTest.dir/build.make CMakeFiles/fileStorageTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles --progress-num=5,6 "Built target fileStorageTest"
+.PHONY : CMakeFiles/fileStorageTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fileStorageTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/fileStorageTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles 0
+.PHONY : CMakeFiles/fileStorageTest.dir/rule
+
+# Convenience name for target.
+fileStorageTest: CMakeFiles/fileStorageTest.dir/rule
+.PHONY : fileStorageTest
+
+# clean rule for target.
+CMakeFiles/fileStorageTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileStorageTest.dir/build.make CMakeFiles/fileStorageTest.dir/clean
+.PHONY : CMakeFiles/fileStorageTest.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/keyboard.dir
 
 # All Build rule for target.
 CMakeFiles/keyboard.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard.dir/build.make CMakeFiles/keyboard.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard.dir/build.make CMakeFiles/keyboard.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles --progress-num=3,4 "Built target keyboard"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles --progress-num=7,8 "Built target keyboard"
 .PHONY : CMakeFiles/keyboard.dir/all
 
 # Build rule for subdir invocation for target.
@@ -143,7 +209,7 @@ CMakeFiles/keyboard.dir/clean:
 CMakeFiles/keyboard2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard2.dir/build.make CMakeFiles/keyboard2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/keyboard2.dir/build.make CMakeFiles/keyboard2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles --progress-num=5,6 "Built target keyboard2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles --progress-num=9,10 "Built target keyboard2"
 .PHONY : CMakeFiles/keyboard2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -169,7 +235,7 @@ CMakeFiles/keyboard2.dir/clean:
 CMakeFiles/line.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/line.dir/build.make CMakeFiles/line.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/line.dir/build.make CMakeFiles/line.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles --progress-num=7,8 "Built target line"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles --progress-num=11,12 "Built target line"
 .PHONY : CMakeFiles/line.dir/all
 
 # Build rule for subdir invocation for target.
@@ -189,13 +255,91 @@ CMakeFiles/line.dir/clean:
 .PHONY : CMakeFiles/line.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/maskSetTo.dir
+
+# All Build rule for target.
+CMakeFiles/maskSetTo.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maskSetTo.dir/build.make CMakeFiles/maskSetTo.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maskSetTo.dir/build.make CMakeFiles/maskSetTo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles --progress-num=13,14 "Built target maskSetTo"
+.PHONY : CMakeFiles/maskSetTo.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/maskSetTo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/maskSetTo.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles 0
+.PHONY : CMakeFiles/maskSetTo.dir/rule
+
+# Convenience name for target.
+maskSetTo: CMakeFiles/maskSetTo.dir/rule
+.PHONY : maskSetTo
+
+# clean rule for target.
+CMakeFiles/maskSetTo.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/maskSetTo.dir/build.make CMakeFiles/maskSetTo.dir/clean
+.PHONY : CMakeFiles/maskSetTo.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/mouseRGBPoint.dir
+
+# All Build rule for target.
+CMakeFiles/mouseRGBPoint.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mouseRGBPoint.dir/build.make CMakeFiles/mouseRGBPoint.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mouseRGBPoint.dir/build.make CMakeFiles/mouseRGBPoint.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles --progress-num=15,16 "Built target mouseRGBPoint"
+.PHONY : CMakeFiles/mouseRGBPoint.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mouseRGBPoint.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mouseRGBPoint.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles 0
+.PHONY : CMakeFiles/mouseRGBPoint.dir/rule
+
+# Convenience name for target.
+mouseRGBPoint: CMakeFiles/mouseRGBPoint.dir/rule
+.PHONY : mouseRGBPoint
+
+# clean rule for target.
+CMakeFiles/mouseRGBPoint.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mouseRGBPoint.dir/build.make CMakeFiles/mouseRGBPoint.dir/clean
+.PHONY : CMakeFiles/mouseRGBPoint.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/mouseTest.dir
+
+# All Build rule for target.
+CMakeFiles/mouseTest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mouseTest.dir/build.make CMakeFiles/mouseTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mouseTest.dir/build.make CMakeFiles/mouseTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles --progress-num=17,18 "Built target mouseTest"
+.PHONY : CMakeFiles/mouseTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/mouseTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/mouseTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles 0
+.PHONY : CMakeFiles/mouseTest.dir/rule
+
+# Convenience name for target.
+mouseTest: CMakeFiles/mouseTest.dir/rule
+.PHONY : mouseTest
+
+# clean rule for target.
+CMakeFiles/mouseTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mouseTest.dir/build.make CMakeFiles/mouseTest.dir/clean
+.PHONY : CMakeFiles/mouseTest.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/rectangleTest.dir
 
 # All Build rule for target.
 CMakeFiles/rectangleTest.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rectangleTest.dir/build.make CMakeFiles/rectangleTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rectangleTest.dir/build.make CMakeFiles/rectangleTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles --progress-num=9,10 "Built target rectangleTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles --progress-num=19,20 "Built target rectangleTest"
 .PHONY : CMakeFiles/rectangleTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -215,13 +359,65 @@ CMakeFiles/rectangleTest.dir/clean:
 .PHONY : CMakeFiles/rectangleTest.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/trackBarTest.dir
+
+# All Build rule for target.
+CMakeFiles/trackBarTest.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trackBarTest.dir/build.make CMakeFiles/trackBarTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trackBarTest.dir/build.make CMakeFiles/trackBarTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles --progress-num=21,22 "Built target trackBarTest"
+.PHONY : CMakeFiles/trackBarTest.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/trackBarTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/trackBarTest.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles 0
+.PHONY : CMakeFiles/trackBarTest.dir/rule
+
+# Convenience name for target.
+trackBarTest: CMakeFiles/trackBarTest.dir/rule
+.PHONY : trackBarTest
+
+# clean rule for target.
+CMakeFiles/trackBarTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trackBarTest.dir/build.make CMakeFiles/trackBarTest.dir/clean
+.PHONY : CMakeFiles/trackBarTest.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/trackBarTest2.dir
+
+# All Build rule for target.
+CMakeFiles/trackBarTest2.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trackBarTest2.dir/build.make CMakeFiles/trackBarTest2.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trackBarTest2.dir/build.make CMakeFiles/trackBarTest2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles --progress-num=23,24 "Built target trackBarTest2"
+.PHONY : CMakeFiles/trackBarTest2.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/trackBarTest2.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/trackBarTest2.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles 0
+.PHONY : CMakeFiles/trackBarTest2.dir/rule
+
+# Convenience name for target.
+trackBarTest2: CMakeFiles/trackBarTest2.dir/rule
+.PHONY : trackBarTest2
+
+# clean rule for target.
+CMakeFiles/trackBarTest2.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/trackBarTest2.dir/build.make CMakeFiles/trackBarTest2.dir/clean
+.PHONY : CMakeFiles/trackBarTest2.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/video.dir
 
 # All Build rule for target.
 CMakeFiles/video.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/video.dir/build.make CMakeFiles/video.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles --progress-num=11,12 "Built target video"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch04/build/CMakeFiles --progress-num=25,26 "Built target video"
 .PHONY : CMakeFiles/video.dir/all
 
 # Build rule for subdir invocation for target.

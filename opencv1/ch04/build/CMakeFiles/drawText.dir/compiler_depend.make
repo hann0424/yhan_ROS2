@@ -3,8 +3,7 @@
 
 CMakeFiles/drawText.dir/drawText.cpp.o: ../drawText.cpp \
   /usr/include/stdc-predef.h \
-  /usr/include/opencv4/opencv2/opencv.hpp \
-  /usr/include/opencv4/opencv2/opencv_modules.hpp \
+  /usr/include/opencv4/opencv2/freetype.hpp \
   /usr/include/opencv4/opencv2/core.hpp \
   /usr/include/opencv4/opencv2/core/cvdef.h \
   /usr/include/opencv4/opencv2/core/version.hpp \
@@ -96,6 +95,7 @@ CMakeFiles/drawText.dir/drawText.cpp.o: ../drawText.cpp \
   /usr/include/c++/11/bits/predefined_ops.h \
   /usr/include/c++/11/bits/range_access.h \
   /usr/include/opencv4/opencv2/core/base.hpp \
+  /usr/include/opencv4/opencv2/opencv_modules.hpp \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -309,6 +309,7 @@ CMakeFiles/drawText.dir/drawText.cpp.o: ../drawText.cpp \
   /usr/include/opencv4/opencv2/core/optim.hpp \
   /usr/include/opencv4/opencv2/core/ovx.hpp \
   /usr/include/opencv4/opencv2/core/cvdef.h \
+  /usr/include/opencv4/opencv2/opencv.hpp \
   /usr/include/opencv4/opencv2/calib3d.hpp \
   /usr/include/opencv4/opencv2/features2d.hpp \
   /usr/include/opencv4/opencv2/flann/miniflann.hpp \
@@ -537,6 +538,8 @@ CMakeFiles/drawText.dir/drawText.cpp.o: ../drawText.cpp \
 
 /usr/include/opencv4/opencv2/calib3d.hpp:
 
+/usr/include/opencv4/opencv2/opencv.hpp:
+
 /usr/include/opencv4/opencv2/core/optim.hpp:
 
 /usr/include/c++/11/bits/parse_numbers.h:
@@ -723,6 +726,8 @@ CMakeFiles/drawText.dir/drawText.cpp.o: ../drawText.cpp \
 
 /usr/include/opencv4/opencv2/core/neon_utils.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
 /usr/include/c++/11/tr1/exp_integral.tcc:
 
 /usr/include/opencv4/opencv2/core/affine.hpp:
@@ -789,25 +794,25 @@ CMakeFiles/drawText.dir/drawText.cpp.o: ../drawText.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
+../drawText.cpp:
+
+/usr/include/opencv4/opencv2/opencv_modules.hpp:
+
+/usr/include/pthread.h:
+
+/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
 /usr/include/opencv4/opencv2/flann/sampling.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
+/usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/c++/11/bits/functexcept.h:
+
 /usr/include/opencv4/opencv2/core.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/opencv4/opencv2/opencv.hpp:
-
-/usr/include/pthread.h:
-
-/usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
-
-../drawText.cpp:
-
-/usr/include/opencv4/opencv2/opencv_modules.hpp:
 
 /usr/include/c++/11/bits/locale_facets.h:
 
@@ -837,6 +842,14 @@ CMakeFiles/drawText.dir/drawText.cpp.o: ../drawText.cpp \
 
 /usr/include/c++/11/limits:
 
+/usr/include/opencv4/opencv2/freetype.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/include/c++/11/debug/debug.h:
+
+/usr/include/features-time64.h:
+
 /usr/include/c++/11/bits/exception_defines.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
@@ -865,15 +878,13 @@ CMakeFiles/drawText.dir/drawText.cpp.o: ../drawText.cpp \
 
 /usr/include/features.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/c++/11/bits/concept_check.h:
+
 /usr/include/c++/11/functional:
 
 /usr/include/linux/errno.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
-
-/usr/include/c++/11/debug/debug.h:
-
-/usr/include/features-time64.h:
 
 /usr/include/c++/11/chrono:
 
@@ -894,14 +905,6 @@ CMakeFiles/drawText.dir/drawText.cpp.o: ../drawText.cpp \
 /usr/include/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/c++/11/bits/concept_check.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
-
-/usr/include/c++/11/bits/functexcept.h:
-
-/usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
 
