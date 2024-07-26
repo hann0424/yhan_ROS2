@@ -412,7 +412,10 @@ CMakeFiles/keyboard2.dir/keyboard2.cpp.o: ../keyboard2.cpp \
   /usr/include/opencv4/opencv2/stitching/detail/camera.hpp \
   /usr/include/opencv4/opencv2/video.hpp \
   /usr/include/opencv4/opencv2/video/tracking.hpp \
-  /usr/include/opencv4/opencv2/video/background_segm.hpp
+  /usr/include/opencv4/opencv2/video/background_segm.hpp \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/std_thread.h \
+  /usr/include/c++/11/bits/this_thread_sleep.h
 
 
 /usr/include/opencv4/opencv2/video/background_segm.hpp:
@@ -542,6 +545,8 @@ CMakeFiles/keyboard2.dir/keyboard2.cpp.o: ../keyboard2.cpp \
 /usr/include/c++/11/bits/parse_numbers.h:
 
 /usr/include/c++/11/ctime:
+
+/usr/include/c++/11/thread:
 
 /usr/include/c++/11/ratio:
 
@@ -833,6 +838,8 @@ CMakeFiles/keyboard2.dir/keyboard2.cpp.o: ../keyboard2.cpp \
 
 /usr/include/c++/11/bits/exception.h:
 
+/usr/include/c++/11/bits/std_thread.h:
+
 /usr/include/c++/11/bits/cpp_type_traits.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
@@ -986,6 +993,8 @@ CMakeFiles/keyboard2.dir/keyboard2.cpp.o: ../keyboard2.cpp \
 /usr/include/c++/11/bits/memoryfwd.h:
 
 /usr/include/c++/11/bits/stringfwd.h:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
 

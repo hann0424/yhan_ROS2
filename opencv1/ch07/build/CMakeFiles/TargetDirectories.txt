@@ -1,4 +1,7 @@
+/home/yhan/yhan_ROS2/opencv1/ch07/build/CMakeFiles/bilateralFilter.dir
 /home/yhan/yhan_ROS2/opencv1/ch07/build/CMakeFiles/blurr.dir
 /home/yhan/yhan_ROS2/opencv1/ch07/build/CMakeFiles/filter2D.dir
+/home/yhan/yhan_ROS2/opencv1/ch07/build/CMakeFiles/gaussianFilter.dir
+/home/yhan/yhan_ROS2/opencv1/ch07/build/CMakeFiles/shapen.dir
 /home/yhan/yhan_ROS2/opencv1/ch07/build/CMakeFiles/edit_cache.dir
 /home/yhan/yhan_ROS2/opencv1/ch07/build/CMakeFiles/rebuild_cache.dir

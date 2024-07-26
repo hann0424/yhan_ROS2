@@ -24,15 +24,18 @@ String folder = "/home/yhan/yhan_ROS2/data/";
 
 int main()
 {
+    // 초기화 및 이미지 로드
     Mydata mydata;
     FileStorage fs;
     mydata.img = imread(folder + "lenna.bmp");
     mydata.background = mydata.img.clone();
 
+    // 윈도우 생성 및 마우스 콜백 설정
     namedWindow("img");
     setMouseCallback("img", onMouse, (void *)&mydata);
-
     imshow("img", mydata.img);
+
+    // 키보드 입력 대기 및 JSON 파일 저장
     int keycode = waitKey(0);
     if (keycode == 27)
     {
@@ -69,3 +72,6 @@ void onMouse(int event, int x, int y, int flags, void *data)
         }
     }
 }
+
+//마우스 왼쪽 버튼 클릭시 해당 부분의 BGR 값 저장
+//ESC누르면 마우스 클릭시 지정된 값을 JSON 형태로 저장

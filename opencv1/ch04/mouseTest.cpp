@@ -22,9 +22,11 @@ String folder = "/home/yhan/yhan_ROS2/data/";
 
 int main()
 {
+    // 초기화 및 이미지 로드
     Mydata mydata;
     mydata.img = imread(folder + "lenna.bmp");
 
+    // 윈도우 생성 및 마우스 콜백 설정
     namedWindow("img");
     setMouseCallback("img", onMouse, (void *)&mydata);
 
@@ -34,6 +36,7 @@ int main()
     return 0;
 }
 
+// 마우스 이벤트 처리
 void onMouse(int event, int x, int y, int flags, void *data)
 {
     Mydata *ptr = (Mydata *)data;
@@ -57,3 +60,5 @@ void onMouse(int event, int x, int y, int flags, void *data)
         }
     }
 }
+// 레나 이미지 로드 윈도우 표시 -> 마우스 이벤트 처리 (왼쪽 버튼 눌리면 드래그하여 이미지 따라 파란색 선)
+// -> 윈도우 업데이트 하여 실시간으로 선 표시.

@@ -117,6 +117,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named bilateralFilter
+
+# Build rule for target.
+bilateralFilter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bilateralFilter
+.PHONY : bilateralFilter
+
+# fast build rule for target.
+bilateralFilter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bilateralFilter.dir/build.make CMakeFiles/bilateralFilter.dir/build
+.PHONY : bilateralFilter/fast
+
+#=============================================================================
 # Target rules for targets named blurr
 
 # Build rule for target.
@@ -141,6 +154,56 @@ filter2D: cmake_check_build_system
 filter2D/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter2D.dir/build.make CMakeFiles/filter2D.dir/build
 .PHONY : filter2D/fast
+
+#=============================================================================
+# Target rules for targets named gaussianFilter
+
+# Build rule for target.
+gaussianFilter: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gaussianFilter
+.PHONY : gaussianFilter
+
+# fast build rule for target.
+gaussianFilter/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaussianFilter.dir/build.make CMakeFiles/gaussianFilter.dir/build
+.PHONY : gaussianFilter/fast
+
+#=============================================================================
+# Target rules for targets named shapen
+
+# Build rule for target.
+shapen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shapen
+.PHONY : shapen
+
+# fast build rule for target.
+shapen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shapen.dir/build.make CMakeFiles/shapen.dir/build
+.PHONY : shapen/fast
+
+bilateralFilter.o: bilateralFilter.cpp.o
+.PHONY : bilateralFilter.o
+
+# target to build an object file
+bilateralFilter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bilateralFilter.dir/build.make CMakeFiles/bilateralFilter.dir/bilateralFilter.cpp.o
+.PHONY : bilateralFilter.cpp.o
+
+bilateralFilter.i: bilateralFilter.cpp.i
+.PHONY : bilateralFilter.i
+
+# target to preprocess a source file
+bilateralFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bilateralFilter.dir/build.make CMakeFiles/bilateralFilter.dir/bilateralFilter.cpp.i
+.PHONY : bilateralFilter.cpp.i
+
+bilateralFilter.s: bilateralFilter.cpp.s
+.PHONY : bilateralFilter.s
+
+# target to generate assembly for a file
+bilateralFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bilateralFilter.dir/build.make CMakeFiles/bilateralFilter.dir/bilateralFilter.cpp.s
+.PHONY : bilateralFilter.cpp.s
 
 blurr.o: blurr.cpp.o
 .PHONY : blurr.o
@@ -190,6 +253,54 @@ filter2D.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/filter2D.dir/build.make CMakeFiles/filter2D.dir/filter2D.cpp.s
 .PHONY : filter2D.cpp.s
 
+gaussianFilter.o: gaussianFilter.cpp.o
+.PHONY : gaussianFilter.o
+
+# target to build an object file
+gaussianFilter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaussianFilter.dir/build.make CMakeFiles/gaussianFilter.dir/gaussianFilter.cpp.o
+.PHONY : gaussianFilter.cpp.o
+
+gaussianFilter.i: gaussianFilter.cpp.i
+.PHONY : gaussianFilter.i
+
+# target to preprocess a source file
+gaussianFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaussianFilter.dir/build.make CMakeFiles/gaussianFilter.dir/gaussianFilter.cpp.i
+.PHONY : gaussianFilter.cpp.i
+
+gaussianFilter.s: gaussianFilter.cpp.s
+.PHONY : gaussianFilter.s
+
+# target to generate assembly for a file
+gaussianFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/gaussianFilter.dir/build.make CMakeFiles/gaussianFilter.dir/gaussianFilter.cpp.s
+.PHONY : gaussianFilter.cpp.s
+
+shapen.o: shapen.cpp.o
+.PHONY : shapen.o
+
+# target to build an object file
+shapen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shapen.dir/build.make CMakeFiles/shapen.dir/shapen.cpp.o
+.PHONY : shapen.cpp.o
+
+shapen.i: shapen.cpp.i
+.PHONY : shapen.i
+
+# target to preprocess a source file
+shapen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shapen.dir/build.make CMakeFiles/shapen.dir/shapen.cpp.i
+.PHONY : shapen.cpp.i
+
+shapen.s: shapen.cpp.s
+.PHONY : shapen.s
+
+# target to generate assembly for a file
+shapen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shapen.dir/build.make CMakeFiles/shapen.dir/shapen.cpp.s
+.PHONY : shapen.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -198,14 +309,26 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... bilateralFilter"
 	@echo "... blurr"
 	@echo "... filter2D"
+	@echo "... gaussianFilter"
+	@echo "... shapen"
+	@echo "... bilateralFilter.o"
+	@echo "... bilateralFilter.i"
+	@echo "... bilateralFilter.s"
 	@echo "... blurr.o"
 	@echo "... blurr.i"
 	@echo "... blurr.s"
 	@echo "... filter2D.o"
 	@echo "... filter2D.i"
 	@echo "... filter2D.s"
+	@echo "... gaussianFilter.o"
+	@echo "... gaussianFilter.i"
+	@echo "... gaussianFilter.s"
+	@echo "... shapen.o"
+	@echo "... shapen.i"
+	@echo "... shapen.s"
 .PHONY : help
 
 
