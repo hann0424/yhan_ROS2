@@ -50,6 +50,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/adaptiveThreshold.dir/DependInfo.cmake"
+  "CMakeFiles/casacade.dir/DependInfo.cmake"
+  "CMakeFiles/hog.dir/DependInfo.cmake"
+  "CMakeFiles/matching.dir/DependInfo.cmake"
   "CMakeFiles/morphologyEx.dir/DependInfo.cmake"
   "CMakeFiles/threthold.dir/DependInfo.cmake"
   )

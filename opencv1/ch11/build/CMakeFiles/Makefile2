@@ -64,6 +64,9 @@ CMAKE_BINARY_DIR = /home/yhan/yhan_ROS2/opencv1/ch11/build
 
 # The main recursive "all" target.
 all: CMakeFiles/adaptiveThreshold.dir/all
+all: CMakeFiles/casacade.dir/all
+all: CMakeFiles/hog.dir/all
+all: CMakeFiles/matching.dir/all
 all: CMakeFiles/morphologyEx.dir/all
 all: CMakeFiles/threthold.dir/all
 .PHONY : all
@@ -74,6 +77,9 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/adaptiveThreshold.dir/clean
+clean: CMakeFiles/casacade.dir/clean
+clean: CMakeFiles/hog.dir/clean
+clean: CMakeFiles/matching.dir/clean
 clean: CMakeFiles/morphologyEx.dir/clean
 clean: CMakeFiles/threthold.dir/clean
 .PHONY : clean
@@ -105,13 +111,91 @@ CMakeFiles/adaptiveThreshold.dir/clean:
 .PHONY : CMakeFiles/adaptiveThreshold.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/casacade.dir
+
+# All Build rule for target.
+CMakeFiles/casacade.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/casacade.dir/build.make CMakeFiles/casacade.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/casacade.dir/build.make CMakeFiles/casacade.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles --progress-num=3,4 "Built target casacade"
+.PHONY : CMakeFiles/casacade.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/casacade.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/casacade.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles 0
+.PHONY : CMakeFiles/casacade.dir/rule
+
+# Convenience name for target.
+casacade: CMakeFiles/casacade.dir/rule
+.PHONY : casacade
+
+# clean rule for target.
+CMakeFiles/casacade.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/casacade.dir/build.make CMakeFiles/casacade.dir/clean
+.PHONY : CMakeFiles/casacade.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hog.dir
+
+# All Build rule for target.
+CMakeFiles/hog.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hog.dir/build.make CMakeFiles/hog.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hog.dir/build.make CMakeFiles/hog.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles --progress-num=5,6 "Built target hog"
+.PHONY : CMakeFiles/hog.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hog.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hog.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles 0
+.PHONY : CMakeFiles/hog.dir/rule
+
+# Convenience name for target.
+hog: CMakeFiles/hog.dir/rule
+.PHONY : hog
+
+# clean rule for target.
+CMakeFiles/hog.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hog.dir/build.make CMakeFiles/hog.dir/clean
+.PHONY : CMakeFiles/hog.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/matching.dir
+
+# All Build rule for target.
+CMakeFiles/matching.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matching.dir/build.make CMakeFiles/matching.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matching.dir/build.make CMakeFiles/matching.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles --progress-num=7,8 "Built target matching"
+.PHONY : CMakeFiles/matching.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/matching.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/matching.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles 0
+.PHONY : CMakeFiles/matching.dir/rule
+
+# Convenience name for target.
+matching: CMakeFiles/matching.dir/rule
+.PHONY : matching
+
+# clean rule for target.
+CMakeFiles/matching.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matching.dir/build.make CMakeFiles/matching.dir/clean
+.PHONY : CMakeFiles/matching.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/morphologyEx.dir
 
 # All Build rule for target.
 CMakeFiles/morphologyEx.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/morphologyEx.dir/build.make CMakeFiles/morphologyEx.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/morphologyEx.dir/build.make CMakeFiles/morphologyEx.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles --progress-num=3,4 "Built target morphologyEx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles --progress-num=9,10 "Built target morphologyEx"
 .PHONY : CMakeFiles/morphologyEx.dir/all
 
 # Build rule for subdir invocation for target.
@@ -137,7 +221,7 @@ CMakeFiles/morphologyEx.dir/clean:
 CMakeFiles/threthold.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/threthold.dir/build.make CMakeFiles/threthold.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/threthold.dir/build.make CMakeFiles/threthold.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles --progress-num=5,6 "Built target threthold"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles --progress-num=11,12 "Built target threthold"
 .PHONY : CMakeFiles/threthold.dir/all
 
 # Build rule for subdir invocation for target.

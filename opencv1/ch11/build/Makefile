@@ -130,6 +130,45 @@ adaptiveThreshold/fast:
 .PHONY : adaptiveThreshold/fast
 
 #=============================================================================
+# Target rules for targets named casacade
+
+# Build rule for target.
+casacade: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 casacade
+.PHONY : casacade
+
+# fast build rule for target.
+casacade/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/casacade.dir/build.make CMakeFiles/casacade.dir/build
+.PHONY : casacade/fast
+
+#=============================================================================
+# Target rules for targets named hog
+
+# Build rule for target.
+hog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hog
+.PHONY : hog
+
+# fast build rule for target.
+hog/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hog.dir/build.make CMakeFiles/hog.dir/build
+.PHONY : hog/fast
+
+#=============================================================================
+# Target rules for targets named matching
+
+# Build rule for target.
+matching: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 matching
+.PHONY : matching
+
+# fast build rule for target.
+matching/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matching.dir/build.make CMakeFiles/matching.dir/build
+.PHONY : matching/fast
+
+#=============================================================================
 # Target rules for targets named morphologyEx
 
 # Build rule for target.
@@ -178,6 +217,78 @@ adaptiveThreshold.s: adaptiveThreshold.cpp.s
 adaptiveThreshold.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/adaptiveThreshold.dir/build.make CMakeFiles/adaptiveThreshold.dir/adaptiveThreshold.cpp.s
 .PHONY : adaptiveThreshold.cpp.s
+
+casacade.o: casacade.cpp.o
+.PHONY : casacade.o
+
+# target to build an object file
+casacade.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/casacade.dir/build.make CMakeFiles/casacade.dir/casacade.cpp.o
+.PHONY : casacade.cpp.o
+
+casacade.i: casacade.cpp.i
+.PHONY : casacade.i
+
+# target to preprocess a source file
+casacade.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/casacade.dir/build.make CMakeFiles/casacade.dir/casacade.cpp.i
+.PHONY : casacade.cpp.i
+
+casacade.s: casacade.cpp.s
+.PHONY : casacade.s
+
+# target to generate assembly for a file
+casacade.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/casacade.dir/build.make CMakeFiles/casacade.dir/casacade.cpp.s
+.PHONY : casacade.cpp.s
+
+hog.o: hog.cpp.o
+.PHONY : hog.o
+
+# target to build an object file
+hog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hog.dir/build.make CMakeFiles/hog.dir/hog.cpp.o
+.PHONY : hog.cpp.o
+
+hog.i: hog.cpp.i
+.PHONY : hog.i
+
+# target to preprocess a source file
+hog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hog.dir/build.make CMakeFiles/hog.dir/hog.cpp.i
+.PHONY : hog.cpp.i
+
+hog.s: hog.cpp.s
+.PHONY : hog.s
+
+# target to generate assembly for a file
+hog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hog.dir/build.make CMakeFiles/hog.dir/hog.cpp.s
+.PHONY : hog.cpp.s
+
+matching.o: matching.cpp.o
+.PHONY : matching.o
+
+# target to build an object file
+matching.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matching.dir/build.make CMakeFiles/matching.dir/matching.cpp.o
+.PHONY : matching.cpp.o
+
+matching.i: matching.cpp.i
+.PHONY : matching.i
+
+# target to preprocess a source file
+matching.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matching.dir/build.make CMakeFiles/matching.dir/matching.cpp.i
+.PHONY : matching.cpp.i
+
+matching.s: matching.cpp.s
+.PHONY : matching.s
+
+# target to generate assembly for a file
+matching.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/matching.dir/build.make CMakeFiles/matching.dir/matching.cpp.s
+.PHONY : matching.cpp.s
 
 morphologyEx.o: morphologyEx.cpp.o
 .PHONY : morphologyEx.o
@@ -236,11 +347,23 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... adaptiveThreshold"
+	@echo "... casacade"
+	@echo "... hog"
+	@echo "... matching"
 	@echo "... morphologyEx"
 	@echo "... threthold"
 	@echo "... adaptiveThreshold.o"
 	@echo "... adaptiveThreshold.i"
 	@echo "... adaptiveThreshold.s"
+	@echo "... casacade.o"
+	@echo "... casacade.i"
+	@echo "... casacade.s"
+	@echo "... hog.o"
+	@echo "... hog.i"
+	@echo "... hog.s"
+	@echo "... matching.o"
+	@echo "... matching.i"
+	@echo "... matching.s"
 	@echo "... morphologyEx.o"
 	@echo "... morphologyEx.i"
 	@echo "... morphologyEx.s"

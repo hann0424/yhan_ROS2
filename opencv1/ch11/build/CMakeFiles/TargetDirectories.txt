@@ -1,4 +1,7 @@
 /home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles/adaptiveThreshold.dir
+/home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles/casacade.dir
+/home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles/hog.dir
+/home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles/matching.dir
 /home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles/morphologyEx.dir
 /home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles/threthold.dir
 /home/yhan/yhan_ROS2/opencv1/ch11/build/CMakeFiles/edit_cache.dir
