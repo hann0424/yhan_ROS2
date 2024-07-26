@@ -28,7 +28,9 @@ or 소스 코드 빌드 & 설치 (권장, but 시간 오래)
 cmake -> cmakelist.txt -> make  ||  CMakeLists 파일 제대로 작성하는 것 중요.
 <br>
 <br>
+
 - - -
+
 ### 2024-07-24 - 2일차
 
 1. matOp1 - mat 생성자예제
@@ -58,7 +60,9 @@ CMake? 빌드 파일을 생성해주는 프로그램
 https://gist.github.com/luncliff/6e2d4eb7ca29a0afd5b592f72b80cb5c
 <br>
 <br>
+
 - - -
+
 ### 2024-07-25 - 3일차
 
 1. mouseTest - 이미지에 마우스로 선 그리기
@@ -82,7 +86,9 @@ https://gist.github.com/luncliff/6e2d4eb7ca29a0afd5b592f72b80cb5c
 13. shapen - 이미지 선명도 처리
 <br>
 <br>
-- - - 
+
+- - -
+
 ### 2024-07-26 4일차
 
 1. affine - Affine 변환 , 이미지 크기 기울기 이동. 조정가능한 선형변환방법.
