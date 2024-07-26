@@ -130,6 +130,19 @@ canny/fast:
 .PHONY : canny/fast
 
 #=============================================================================
+# Target rules for targets named ch10_inrange
+
+# Build rule for target.
+ch10_inrange: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch10_inrange
+.PHONY : ch10_inrange
+
+# fast build rule for target.
+ch10_inrange/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_inrange.dir/build.make CMakeFiles/ch10_inrange.dir/build
+.PHONY : ch10_inrange/fast
+
+#=============================================================================
 # Target rules for targets named ch10_splitmerge
 
 # Build rule for target.
@@ -204,6 +217,30 @@ canny.s: canny.cpp.s
 canny.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/canny.dir/build.make CMakeFiles/canny.dir/canny.cpp.s
 .PHONY : canny.cpp.s
+
+ch10_inrange.o: ch10_inrange.cpp.o
+.PHONY : ch10_inrange.o
+
+# target to build an object file
+ch10_inrange.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_inrange.dir/build.make CMakeFiles/ch10_inrange.dir/ch10_inrange.cpp.o
+.PHONY : ch10_inrange.cpp.o
+
+ch10_inrange.i: ch10_inrange.cpp.i
+.PHONY : ch10_inrange.i
+
+# target to preprocess a source file
+ch10_inrange.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_inrange.dir/build.make CMakeFiles/ch10_inrange.dir/ch10_inrange.cpp.i
+.PHONY : ch10_inrange.cpp.i
+
+ch10_inrange.s: ch10_inrange.cpp.s
+.PHONY : ch10_inrange.s
+
+# target to generate assembly for a file
+ch10_inrange.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_inrange.dir/build.make CMakeFiles/ch10_inrange.dir/ch10_inrange.cpp.s
+.PHONY : ch10_inrange.cpp.s
 
 ch10_splitmerge.o: ch10_splitmerge.cpp.o
 .PHONY : ch10_splitmerge.o
@@ -310,6 +347,7 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... canny"
+	@echo "... ch10_inrange"
 	@echo "... ch10_splitmerge"
 	@echo "... ch10color"
 	@echo "... houghline"
@@ -317,6 +355,9 @@ help:
 	@echo "... canny.o"
 	@echo "... canny.i"
 	@echo "... canny.s"
+	@echo "... ch10_inrange.o"
+	@echo "... ch10_inrange.i"
+	@echo "... ch10_inrange.s"
 	@echo "... ch10_splitmerge.o"
 	@echo "... ch10_splitmerge.i"
 	@echo "... ch10_splitmerge.s"

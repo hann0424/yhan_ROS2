@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/yhan/yhan_ROS2/opencv1/ch09/build
 
 # The main recursive "all" target.
 all: CMakeFiles/canny.dir/all
+all: CMakeFiles/ch10_inrange.dir/all
 all: CMakeFiles/ch10_splitmerge.dir/all
 all: CMakeFiles/ch10color.dir/all
 all: CMakeFiles/houghline.dir/all
@@ -76,6 +77,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/canny.dir/clean
+clean: CMakeFiles/ch10_inrange.dir/clean
 clean: CMakeFiles/ch10_splitmerge.dir/clean
 clean: CMakeFiles/ch10color.dir/clean
 clean: CMakeFiles/houghline.dir/clean
@@ -109,13 +111,39 @@ CMakeFiles/canny.dir/clean:
 .PHONY : CMakeFiles/canny.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/ch10_inrange.dir
+
+# All Build rule for target.
+CMakeFiles/ch10_inrange.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_inrange.dir/build.make CMakeFiles/ch10_inrange.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_inrange.dir/build.make CMakeFiles/ch10_inrange.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch09/build/CMakeFiles --progress-num=3,4 "Built target ch10_inrange"
+.PHONY : CMakeFiles/ch10_inrange.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch10_inrange.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch09/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ch10_inrange.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yhan/yhan_ROS2/opencv1/ch09/build/CMakeFiles 0
+.PHONY : CMakeFiles/ch10_inrange.dir/rule
+
+# Convenience name for target.
+ch10_inrange: CMakeFiles/ch10_inrange.dir/rule
+.PHONY : ch10_inrange
+
+# clean rule for target.
+CMakeFiles/ch10_inrange.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_inrange.dir/build.make CMakeFiles/ch10_inrange.dir/clean
+.PHONY : CMakeFiles/ch10_inrange.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/ch10_splitmerge.dir
 
 # All Build rule for target.
 CMakeFiles/ch10_splitmerge.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_splitmerge.dir/build.make CMakeFiles/ch10_splitmerge.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_splitmerge.dir/build.make CMakeFiles/ch10_splitmerge.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch09/build/CMakeFiles --progress-num=3,4 "Built target ch10_splitmerge"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch09/build/CMakeFiles --progress-num=5,6 "Built target ch10_splitmerge"
 .PHONY : CMakeFiles/ch10_splitmerge.dir/all
 
 # Build rule for subdir invocation for target.
@@ -141,7 +169,7 @@ CMakeFiles/ch10_splitmerge.dir/clean:
 CMakeFiles/ch10color.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10color.dir/build.make CMakeFiles/ch10color.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10color.dir/build.make CMakeFiles/ch10color.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch09/build/CMakeFiles --progress-num=5,6 "Built target ch10color"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch09/build/CMakeFiles --progress-num=7,8 "Built target ch10color"
 .PHONY : CMakeFiles/ch10color.dir/all
 
 # Build rule for subdir invocation for target.
@@ -167,7 +195,7 @@ CMakeFiles/ch10color.dir/clean:
 CMakeFiles/houghline.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghline.dir/build.make CMakeFiles/houghline.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghline.dir/build.make CMakeFiles/houghline.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch09/build/CMakeFiles --progress-num=7,8 "Built target houghline"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch09/build/CMakeFiles --progress-num=9,10 "Built target houghline"
 .PHONY : CMakeFiles/houghline.dir/all
 
 # Build rule for subdir invocation for target.
@@ -193,7 +221,7 @@ CMakeFiles/houghline.dir/clean:
 CMakeFiles/houghlineP.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghlineP.dir/build.make CMakeFiles/houghlineP.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/houghlineP.dir/build.make CMakeFiles/houghlineP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch09/build/CMakeFiles --progress-num=9,10 "Built target houghlineP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yhan/yhan_ROS2/opencv1/ch09/build/CMakeFiles --progress-num=11,12 "Built target houghlineP"
 .PHONY : CMakeFiles/houghlineP.dir/all
 
 # Build rule for subdir invocation for target.

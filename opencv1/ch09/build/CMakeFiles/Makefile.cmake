@@ -50,6 +50,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/canny.dir/DependInfo.cmake"
+  "CMakeFiles/ch10_inrange.dir/DependInfo.cmake"
   "CMakeFiles/ch10_splitmerge.dir/DependInfo.cmake"
   "CMakeFiles/ch10color.dir/DependInfo.cmake"
   "CMakeFiles/houghline.dir/DependInfo.cmake"
