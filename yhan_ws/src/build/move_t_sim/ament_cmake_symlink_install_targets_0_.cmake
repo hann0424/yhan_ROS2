@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yhan/yhan_ROS2/yhan_ws/src/build/move_t_sim/moveTurtleSim" "/home/yhan/yhan_ROS2/yhan_ws/src/build/move_t_sim/moveTurtleBot" "TARGETS" "moveTurtleSim" "moveTurtleBot" "DESTINATION" "lib/move_t_sim")

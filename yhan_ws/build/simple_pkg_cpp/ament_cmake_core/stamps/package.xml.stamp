@@ -3,8 +3,8 @@
 <package format="3">
   <name>simple_pkg_cpp</name>
   <version>0.0.0</version>
-  <description>yhan first ROS2 project</description>
-  <maintainer email="chldydgks20082@gmail.com">yhan</maintainer>
+  <description>my first ROS2 project</description>
+  <maintainer email="freshmea@naver.com">freshmea</maintainer>
   <license>Apache 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>

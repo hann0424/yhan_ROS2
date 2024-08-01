@@ -1,6 +1,0 @@
-/usr/bin/ld: CMakeFiles/hello_publisher.dir/src/hello_publisher.cpp.o: in function `main':
-hello_publisher.cpp:(.text+0xd9): undefined reference to `printHello()'
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/hello_publisher.dir/build.make:159: hello_publisher] 오류 1
-gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/hello_publisher.dir/all] 오류 2
-gmake: *** [Makefile:146: all] 오류 2

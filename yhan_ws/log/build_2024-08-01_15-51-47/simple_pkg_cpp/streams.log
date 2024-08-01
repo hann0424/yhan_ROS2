@@ -1,0 +1,106 @@
+[0.034s] Invoking command in '/home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yhan/yhan_ROS2/yhan_ws/src/simple_pkg_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp
+[0.212s] -- The C compiler identification is GNU 11.4.0
+[0.363s] -- The CXX compiler identification is GNU 11.4.0
+[0.373s] -- Detecting C compiler ABI info
+[0.677s] -- Detecting C compiler ABI info - done
+[0.679s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.681s] -- Detecting C compile features
+[0.688s] -- Detecting C compile features - done
+[0.694s] -- Detecting CXX compiler ABI info
+[0.917s] -- Detecting CXX compiler ABI info - done
+[0.924s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.924s] -- Detecting CXX compile features
+[0.925s] -- Detecting CXX compile features - done
+[0.928s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.292s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.420s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.462s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.553s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.563s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.578s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.590s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.608s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.697s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.705s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.987s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.044s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.141s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.175s] -- Looking for pthread.h
+[2.401s] -- Looking for pthread.h - found
+[2.402s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.656s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.657s] -- Found Threads: TRUE  
+[3.026s] -- Found OpenCV: /usr (found version "4.5.4") 
+[3.036s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.175s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.175s] -- Configured cppcheck include dirs: /home/yhan/yhan_ROS2/yhan_ws/src/simple_pkg_cpp/include
+[3.175s] -- Configured cppcheck exclude dirs and/or files: 
+[3.177s] -- Added test 'lint_cmake' to check CMake code style
+[3.213s] -- Added test 'uncrustify' to check C / C++ code style
+[3.213s] -- Configured uncrustify additional arguments: 
+[3.217s] -- Added test 'xmllint' to check XML markup files
+[3.221s] -- Configuring done
+[3.256s] -- Generating done
+[3.263s] -- Build files have been written to: /home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp
+[3.282s] Invoked command in '/home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/yhan/yhan_ROS2/yhan_ws/src/simple_pkg_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp
+[3.291s] Invoking command in '/home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp -- -j2 -l2
+[3.424s] [  4%] [32mBuilding CXX object CMakeFiles/helloword.dir/src/helloworld.cpp.o[0m
+[3.808s] [  9%] [32m[1mLinking CXX executable helloword[0m
+[3.994s] [  9%] Built target helloword
+[4.066s] [ 13%] [32mBuilding CXX object CMakeFiles/helloOpenCV.dir/src/helloOpenCV.cpp.o[0m
+[6.732s] [ 18%] [32m[1mLinking CXX executable helloOpenCV[0m
+[7.451s] [ 18%] Built target helloOpenCV
+[7.493s] [ 22%] [32mBuilding CXX object CMakeFiles/hello_publisher.dir/src/hello_publisher.cpp.o[0m
+[12.810s] [ 27%] [32m[1mLinking CXX executable hello_publisher[0m
+[12.999s] [ 27%] Built target hello_publisher
+[13.051s] [ 31%] [32mBuilding CXX object CMakeFiles/hello_publisher2.dir/src/hello_publisher2.cpp.o[0m
+[21.545s] [ 36%] [32m[1mLinking CXX executable hello_publisher2[0m
+[21.736s] [ 36%] Built target hello_publisher2
+[21.768s] [ 40%] [32mBuilding CXX object CMakeFiles/hello_publisher_class.dir/src/hello_publisher_class.cpp.o[0m
+[27.914s] [ 45%] [32m[1mLinking CXX executable hello_publisher_class[0m
+[28.109s] [ 45%] Built target hello_publisher_class
+[28.129s] [ 50%] [32mBuilding CXX object CMakeFiles/hello_publisher_class2.dir/src/hello_publisher_class2.cpp.o[0m
+[32.771s] [ 54%] [32mBuilding CXX object CMakeFiles/hello_publisher_class2.dir/src/publisher.cpp.o[0m
+[39.765s] [ 59%] [32m[1mLinking CXX executable hello_publisher_class2[0m
+[40.019s] [ 59%] Built target hello_publisher_class2
+[40.094s] [ 63%] [32mBuilding CXX object CMakeFiles/hello_subscriber_class.dir/src/hello_subscriber_class.cpp.o[0m
+[44.275s] [ 68%] [32mBuilding CXX object CMakeFiles/hello_subscriber_class.dir/src/subscriber.cpp.o[0m
+[56.013s] [ 72%] [32m[1mLinking CXX executable hello_subscriber_class[0m
+[56.587s] [ 72%] Built target hello_subscriber_class
+[56.630s] [ 77%] [32mBuilding CXX object CMakeFiles/time_publisher_class.dir/src/time_publisher_class.cpp.o[0m
+[60.857s] [ 81%] [32mBuilding CXX object CMakeFiles/time_publisher_class.dir/src/time_pub.cpp.o[0m
+[66.308s] [ 86%] [32m[1mLinking CXX executable time_publisher_class[0m
+[66.521s] [ 86%] Built target time_publisher_class
+[66.552s] [ 90%] [32mBuilding CXX object CMakeFiles/time_subscriber_class.dir/src/time_subscriber_class.cpp.o[0m
+[71.547s] [ 95%] [32mBuilding CXX object CMakeFiles/time_subscriber_class.dir/src/time_sub.cpp.o[0m
+[80.628s] [100%] [32m[1mLinking CXX executable time_subscriber_class[0m
+[80.973s] [100%] Built target time_subscriber_class
+[80.995s] Invoked command in '/home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp -- -j2 -l2
+[81.053s] Invoking command in '/home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp
+[81.077s] -- Install configuration: ""
+[81.085s] -- Execute custom install script
+[81.085s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/helloword
+[81.104s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/helloOpenCV
+[81.117s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_publisher
+[81.134s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_publisher2
+[81.149s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_publisher_class
+[81.160s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_publisher_class2
+[81.182s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_subscriber_class
+[81.196s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/time_publisher_class
+[81.207s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/time_subscriber_class
+[81.221s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/ament_index/resource_index/package_run_dependencies/simple_pkg_cpp
+[81.247s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/ament_index/resource_index/parent_prefix_path/simple_pkg_cpp
+[81.263s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.sh
+[81.272s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.dsv
+[81.284s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.sh
+[81.292s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.dsv
+[81.303s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.bash
+[81.312s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.sh
+[81.322s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.zsh
+[81.333s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.dsv
+[81.341s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.dsv
+[81.350s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/ament_index/resource_index/packages/simple_pkg_cpp
+[81.359s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig.cmake
+[81.368s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig-version.cmake
+[81.376s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.xml
+[81.390s] Invoked command in '/home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp

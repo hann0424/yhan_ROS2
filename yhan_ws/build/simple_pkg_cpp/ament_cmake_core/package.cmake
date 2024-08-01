@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "simple_pkg_cpp")
 set(simple_pkg_cpp_VERSION "0.0.0")
-set(simple_pkg_cpp_MAINTAINER "yhan <chldydgks20082@gmail.com>")
+set(simple_pkg_cpp_MAINTAINER "freshmea <freshmea@naver.com>")
 set(simple_pkg_cpp_BUILD_DEPENDS "rclcpp" "std_msgs" "OpenCV")
 set(simple_pkg_cpp_BUILDTOOL_DEPENDS "ament_cmake")
 set(simple_pkg_cpp_BUILD_EXPORT_DEPENDS "rclcpp" "std_msgs" "OpenCV")

@@ -1,0 +1,41 @@
+[0.028s] Invoking command in '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/opt/ros/humble /usr/bin/cmake /home/yhan/yhan_ROS2/yhan_ws/src/turtlebot3_simulations/turtlebot3_simulations -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations
+[0.252s] -- The C compiler identification is GNU 11.4.0
+[0.452s] -- The CXX compiler identification is GNU 11.4.0
+[0.476s] -- Detecting C compiler ABI info
+[0.725s] -- Detecting C compiler ABI info - done
+[0.741s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.741s] -- Detecting C compile features
+[0.741s] -- Detecting C compile features - done
+[0.747s] -- Detecting CXX compiler ABI info
+[0.992s] -- Detecting CXX compiler ABI info - done
+[1.018s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.018s] -- Detecting CXX compile features
+[1.020s] -- Detecting CXX compile features - done
+[1.028s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.310s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.481s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.788s] -- Configuring done
+[1.795s] -- Generating done
+[1.804s] -- Build files have been written to: /home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_simulations
+[1.819s] Invoked command in '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/opt/ros/humble /usr/bin/cmake /home/yhan/yhan_ROS2/yhan_ws/src/turtlebot3_simulations/turtlebot3_simulations -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations
+[1.821s] Invoking command in '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/opt/ros/humble /usr/bin/cmake --build /home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_simulations -- -j2 -l2
+[1.951s] Invoked command in '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/opt/ros/humble /usr/bin/cmake --build /home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_simulations -- -j2 -l2
+[2.078s] Invoking command in '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_simulations': AMENT_PREFIX_PATH=/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/opt/ros/humble /usr/bin/cmake --install /home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_simulations
+[2.114s] -- Install configuration: ""
+[2.114s] -- Execute custom install script
+[2.114s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations
+[2.170s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations
+[2.201s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh
+[2.209s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv
+[2.236s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh
+[2.265s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv
+[2.290s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash
+[2.300s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh
+[2.325s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh
+[2.370s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv
+[2.384s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv
+[2.408s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations
+[2.430s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake
+[2.440s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake
+[2.461s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml
+[2.502s] Invoked command in '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_simulations' returned '0': AMENT_PREFIX_PATH=/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/opt/ros/humble /usr/bin/cmake --install /home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_simulations

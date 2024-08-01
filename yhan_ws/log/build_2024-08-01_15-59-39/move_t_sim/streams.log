@@ -1,0 +1,137 @@
+[0.033s] Invoking command in '/home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim -- -j2 -l2
+[0.070s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.221s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.225s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.269s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.269s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.282s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.283s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.295s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.372s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.373s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.521s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.745s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.802s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.948s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.963s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.963s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.964s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.964s]   problems in calling code that expects `find_package` result variables
+[0.965s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.965s] Call Stack (most recent call first):
+[0.966s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.966s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.967s]   CMakeLists.txt:14 (find_package)
+[0.967s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.968s] [0m
+[0.968s] -- Checking for module 'bullet>=2.82'
+[0.981s] --   Found bullet, version 3.05
+[1.198s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.259s] -- Found assimp: /usr/include (found version "5.2.0") 
+[1.287s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.322s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.345s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.352s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.364s] -- Searching for dependencies of ignition-math6
+[1.367s] -- Looking for OGRE...
+[1.368s] -- OGRE_PREFIX_WATCH changed.
+[1.375s] -- Checking for module 'OGRE'
+[1.394s] --   Found OGRE, version 1.9.0
+[1.446s] -- Found Ogre Ghadamon (1.9.0)
+[1.469s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.483s] -- Looking for OGRE_Paging...
+[1.496s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.496s] -- Looking for OGRE_Terrain...
+[1.504s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.504s] -- Looking for OGRE_Property...
+[1.513s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.513s] -- Looking for OGRE_RTShaderSystem...
+[1.524s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.524s] -- Looking for OGRE_Volume...
+[1.529s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.530s] -- Looking for OGRE_Overlay...
+[1.542s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.698s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.700s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.700s] -- Searching for dependencies of ignition-transport8
+[1.716s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.727s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.732s] -- Checking for module 'libzmq >= 4'
+[1.752s] --   Found libzmq , version 4.3.4
+[1.792s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.798s] -- Checking for module 'uuid'
+[1.811s] --   Found uuid, version 2.37.2
+[1.846s] -- Found UUID: TRUE  
+[1.848s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.849s] -- Searching for dependencies of ignition-msgs5
+[1.865s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.870s] -- Checking for module 'tinyxml2'
+[1.890s] --   Found tinyxml2, version 9.0.0
+[1.919s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.922s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.923s] -- Searching for dependencies of ignition-common3
+[1.924s] -- Looking for dlfcn.h - found
+[1.925s] -- Looking for libdl - found
+[1.927s] -- Found DL: TRUE  
+[1.937s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.939s] -- Searching for <ignition-common3> component [graphics]
+[1.942s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.942s] -- Searching for dependencies of ignition-common3-graphics
+[1.943s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.946s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.947s] -- Searching for dependencies of ignition-fuel_tools4
+[2.029s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.036s] -- Checking for module 'jsoncpp'
+[2.048s] --   Found jsoncpp, version 1.9.5
+[2.084s] -- Found JSONCPP: TRUE  
+[2.089s] -- Checking for module 'libzip'
+[2.104s] --   Found libzip, version 1.7.3
+[2.141s] -- Found ZIP: TRUE  
+[2.142s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.143s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.143s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.148s] -- Checking for module 'gazebo'
+[2.177s] --   Found gazebo, version 11.10.2
+[2.216s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.277s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.277s] -- Configured cppcheck include dirs: /home/yhan/yhan_ROS2/yhan_ws/src/move_t_sim/include
+[2.278s] -- Configured cppcheck exclude dirs and/or files: 
+[2.280s] -- Added test 'lint_cmake' to check CMake code style
+[2.283s] -- Added test 'uncrustify' to check C / C++ code style
+[2.283s] -- Configured uncrustify additional arguments: 
+[2.284s] -- Added test 'xmllint' to check XML markup files
+[2.284s] -- Configuring done
+[2.301s] -- Generating done
+[2.306s] -- Build files have been written to: /home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim
+[2.339s] [35m[1mConsolidate compiler generated dependencies of target moveTurtleBot[0m
+[2.339s] [35m[1mConsolidate compiler generated dependencies of target moveTurtleSim[0m
+[2.389s] [ 16%] [32mBuilding CXX object CMakeFiles/moveTurtleBot.dir/src/moveTurtleBot.cpp.o[0m
+[2.390s] [ 33%] [32mBuilding CXX object CMakeFiles/moveTurtleSim.dir/src/moveTurtleSim.cpp.o[0m
+[5.886s] [ 50%] [32mBuilding CXX object CMakeFiles/moveTurtleBot.dir/src/moveTurtleBotcpp.cpp.o[0m
+[5.990s] [ 66%] [32mBuilding CXX object CMakeFiles/moveTurtleSim.dir/src/moveTurtle.cpp.o[0m
+[11.076s] [ 83%] [32m[1mLinking CXX executable moveTurtleSim[0m
+[11.296s] [ 83%] Built target moveTurtleSim
+[14.511s] [100%] [32m[1mLinking CXX executable moveTurtleBot[0m
+[14.864s] [100%] Built target moveTurtleBot
+[14.882s] Invoked command in '/home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim -- -j2 -l2
+[14.911s] Invoking command in '/home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim
+[14.917s] -- Install configuration: ""
+[14.918s] -- Execute custom install script
+[14.919s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/lib/move_t_sim/moveTurtleSim
+[14.919s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/lib/move_t_sim/moveTurtleBot
+[14.920s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/ament_index/resource_index/package_run_dependencies/move_t_sim
+[14.920s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/ament_index/resource_index/parent_prefix_path/move_t_sim
+[14.922s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/environment/ament_prefix_path.sh
+[14.922s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/environment/ament_prefix_path.dsv
+[14.923s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/environment/path.sh
+[14.923s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/environment/path.dsv
+[14.924s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/local_setup.bash
+[14.924s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/local_setup.sh
+[14.925s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/local_setup.zsh
+[14.925s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/local_setup.dsv
+[14.926s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/package.dsv
+[14.931s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/ament_index/resource_index/packages/move_t_sim
+[14.932s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/cmake/move_t_simConfig.cmake
+[14.933s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/cmake/move_t_simConfig-version.cmake
+[14.937s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/package.xml
+[14.937s] Invoked command in '/home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim
