@@ -18,7 +18,7 @@ void MoveTurtleBot::publish_turtlesim_msg()
     _twist_pub->publish(twist);
 }
 
-void sub_odom_msg(const nav_msgs::msg::Odometry::SharedPtr msg)
+void MoveTurtleBot::sub_odom_msg(const nav_msgs::msg::Odometry::SharedPtr msg)
 {
-
+    _odom_msg = *msg;
 }
