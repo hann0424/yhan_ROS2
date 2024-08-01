@@ -1,0 +1,14 @@
+[0.009s] Invoking command in '/home/yhan/yhan_ws/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yhan/yhan_ws/build/simple_pkg_cpp -- -j2 -l2
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target helloOpenCV[0m
+[0.053s] [ 33%] Built target helloworld
+[0.057s] [ 66%] Built target helloOpenCV
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target hello_publisher[0m
+[0.073s] [ 83%] [32mBuilding CXX object CMakeFiles/hello_publisher.dir/src/hello_publisher.cpp.o[0m
+[2.136s] [100%] [32m[1mLinking CXX executable hello_publisher[0m
+[2.203s] /usr/bin/ld: CMakeFiles/hello_publisher.dir/src/hello_publisher.cpp.o: in function `main':
+[2.203s] hello_publisher.cpp:(.text+0xd9): undefined reference to `printHello()'
+[2.207s] collect2: error: ld returned 1 exit status
+[2.209s] gmake[2]: *** [CMakeFiles/hello_publisher.dir/build.make:159: hello_publisher] 오류 1
+[2.209s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/hello_publisher.dir/all] 오류 2
+[2.210s] gmake: *** [Makefile:146: all] 오류 2
+[2.211s] Invoked command in '/home/yhan/yhan_ws/build/simple_pkg_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yhan/yhan_ws/build/simple_pkg_cpp -- -j2 -l2

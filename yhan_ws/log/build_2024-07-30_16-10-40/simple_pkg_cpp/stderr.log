@@ -1,0 +1,13 @@
+[31mCMake Error at CMakeLists.txt:20 (target_link_libraries):
+  Syntax error in cmake code at
+
+    /home/yhan/yhan_ws/src/simple_pkg_cpp/CMakeLists.txt:20
+
+  when parsing string
+
+    ${OpenCV
+
+  There is an unterminated variable reference.
+
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] 오류 1
