@@ -99,3 +99,9 @@ https://gist.github.com/luncliff/6e2d4eb7ca29a0afd5b592f72b80cb5c
 6. houghline - canny 엣지 감지와 hough 변환으로 이미지에서 선 검출.
 7. ch10color - 이미지 각 채널별로 분리 RGB
 8. ch10_splitmerge - 이미지 픽셀 수정 및 표시.
+9. ch10_inrange - 특정 색상 범위 조정 후 필터링 결과 표시.
+10. adaptiveThreshold - 기본 이진화, 적응형 이진화.
+11. morphologyEx - 모폴로지 변환 예제.
+12. threthold - Otsu 이진화 방법.
+13. casacade - 얼굴인식 / 성능좋고 빠르지만, xml 파일 필요하므로 프로젝트 적합에 쉽지않음
+14. hog - 사람인식하여 rectangle로 빨갛게 사각형 표시해주기.
