@@ -1,0 +1,20 @@
+[01m[K/home/yhan/yhan_ROS2/yhan_ws/src/simple_pkg_cpp/src/hello_subscriber_class.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksimple_pkg_cpp/subscriber.hpp: 그런 파일이나 디렉터리가 없습니다
+    1 | #include [01;31m[K"simple_pkg_cpp/subscriber.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hello_subscriber_class.dir/build.make:76: CMakeFiles/hello_subscriber_class.dir/src/hello_subscriber_class.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:309: CMakeFiles/hello_subscriber_class.dir/all] 오류 2
+gmake[1]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[01m[K/home/yhan/yhan_ROS2/yhan_ws/src/simple_pkg_cpp/src/hello_publisher_class2.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksimple_pkg_cpp/publisher.hpp: 그런 파일이나 디렉터리가 없습니다
+    1 | #include [01;31m[K"simple_pkg_cpp/publisher.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hello_publisher_class2.dir/build.make:76: CMakeFiles/hello_publisher_class2.dir/src/hello_publisher_class2.cpp.o] 오류 1
+gmake[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[01m[K/home/yhan/yhan_ROS2/yhan_ws/src/simple_pkg_cpp/src/publisher.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksimple_pkg_cpp/publisher.hpp: 그런 파일이나 디렉터리가 없습니다
+    1 | #include [01;31m[K"simple_pkg_cpp/publisher.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/hello_publisher_class2.dir/build.make:90: CMakeFiles/hello_publisher_class2.dir/src/publisher.cpp.o] 오류 1
+gmake[1]: *** [CMakeFiles/Makefile2:283: CMakeFiles/hello_publisher_class2.dir/all] 오류 2
+gmake: *** [Makefile:146: all] 오류 2

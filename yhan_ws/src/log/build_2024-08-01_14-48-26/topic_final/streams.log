@@ -1,0 +1,36 @@
+[0.017s] Invoking command in '/home/yhan/yhan_ROS2/yhan_ws/src/build/topic_final': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yhan/yhan_ROS2/yhan_ws/src/build/topic_final -- -j2 -l2
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target mpub[0m
+[0.111s] [35m[1mConsolidate compiler generated dependencies of target msub[0m
+[0.160s] [ 20%] Built target mpub
+[0.181s] [ 40%] Built target msub
+[0.236s] [35m[1mConsolidate compiler generated dependencies of target tpub[0m
+[0.248s] [35m[1mConsolidate compiler generated dependencies of target msub2[0m
+[0.264s] [ 60%] Built target tpub
+[0.267s] [ 80%] Built target msub2
+[0.275s] [35m[1mConsolidate compiler generated dependencies of target mtsub[0m
+[0.298s] [100%] Built target mtsub
+[0.318s] Invoked command in '/home/yhan/yhan_ROS2/yhan_ws/src/build/topic_final' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yhan/yhan_ROS2/yhan_ws/src/build/topic_final -- -j2 -l2
+[0.386s] Invoking command in '/home/yhan/yhan_ROS2/yhan_ws/src/build/topic_final': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yhan/yhan_ROS2/yhan_ws/src/build/topic_final
+[0.397s] -- Install configuration: ""
+[0.398s] -- Execute custom install script
+[0.400s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/lib/topic_final/mpub
+[0.400s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/lib/topic_final/msub
+[0.402s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/lib/topic_final/msub2
+[0.402s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/lib/topic_final/tpub
+[0.403s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/lib/topic_final/mtsub
+[0.405s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/share/ament_index/resource_index/package_run_dependencies/topic_final
+[0.406s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/share/ament_index/resource_index/parent_prefix_path/topic_final
+[0.407s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/share/topic_final/environment/ament_prefix_path.sh
+[0.408s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/share/topic_final/environment/ament_prefix_path.dsv
+[0.409s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/share/topic_final/environment/path.sh
+[0.412s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/share/topic_final/environment/path.dsv
+[0.413s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/share/topic_final/local_setup.bash
+[0.413s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/share/topic_final/local_setup.sh
+[0.414s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/share/topic_final/local_setup.zsh
+[0.414s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/share/topic_final/local_setup.dsv
+[0.414s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/share/topic_final/package.dsv
+[0.430s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/share/ament_index/resource_index/packages/topic_final
+[0.433s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/share/topic_final/cmake/topic_finalConfig.cmake
+[0.437s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/share/topic_final/cmake/topic_finalConfig-version.cmake
+[0.437s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/src/install/topic_final/share/topic_final/package.xml
+[0.444s] Invoked command in '/home/yhan/yhan_ROS2/yhan_ws/src/build/topic_final' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yhan/yhan_ROS2/yhan_ws/src/build/topic_final

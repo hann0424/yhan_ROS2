@@ -1,0 +1,2 @@
+Invoking command in '/home/yhan/yhan_ROS2/yhan_ws/src/build/simple_pkg_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yhan/yhan_ROS2/yhan_ws/src/build/simple_pkg_cpp -- -j2 -l2
+Invoked command in '/home/yhan/yhan_ROS2/yhan_ws/src/build/simple_pkg_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yhan/yhan_ROS2/yhan_ws/src/build/simple_pkg_cpp -- -j2 -l2

@@ -12,8 +12,13 @@ MoveTurtleBot::MoveTurtleBot()
 
 void MoveTurtleBot::publish_turtlesim_msg()
 {
+    auto twist = geometry_msgs::msg::Twist();
+    twist.linear.x = 0.1;
+    twist.angular.z = 1.0;
+    _twist_pub->publish(twist);
 }
 
 void sub_odom_msg(const nav_msgs::msg::Odometry::SharedPtr msg)
 {
+
 }
