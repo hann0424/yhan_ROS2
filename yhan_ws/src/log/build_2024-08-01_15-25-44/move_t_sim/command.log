@@ -1,0 +1,6 @@
+Invoking command in '/home/yhan/yhan_ROS2/yhan_ws/src/build/move_t_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yhan/yhan_ROS2/yhan_ws/src/move_t_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yhan/yhan_ROS2/yhan_ws/src/install/move_t_sim
+Invoked command in '/home/yhan/yhan_ROS2/yhan_ws/src/build/move_t_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/yhan/yhan_ROS2/yhan_ws/src/move_t_sim -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yhan/yhan_ROS2/yhan_ws/src/install/move_t_sim
+Invoking command in '/home/yhan/yhan_ROS2/yhan_ws/src/build/move_t_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yhan/yhan_ROS2/yhan_ws/src/build/move_t_sim -- -j2 -l2
+Invoked command in '/home/yhan/yhan_ROS2/yhan_ws/src/build/move_t_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/yhan/yhan_ROS2/yhan_ws/src/build/move_t_sim -- -j2 -l2
+Invoking command in '/home/yhan/yhan_ROS2/yhan_ws/src/build/move_t_sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yhan/yhan_ROS2/yhan_ws/src/build/move_t_sim
+Invoked command in '/home/yhan/yhan_ROS2/yhan_ws/src/build/move_t_sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/yhan/yhan_ROS2/yhan_ws/src/build/move_t_sim

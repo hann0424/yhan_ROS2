@@ -21,4 +21,5 @@ void MoveTurtleBot::publish_turtlesim_msg()
 void MoveTurtleBot::sub_odom_msg(const nav_msgs::msg::Odometry::SharedPtr msg)
 {
     _odom_msg = *msg;
+    RCLCPP_INFO(get_logger(), "Position(x: %f, y: %f, z: %f)", _odom_msg.pose.pose.position.x, _odom_msg.pose.pose.position.y, _odom_msg.pose.pose.position.z);
 }
