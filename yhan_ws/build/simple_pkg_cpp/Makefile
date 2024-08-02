@@ -314,6 +314,45 @@ time_subscriber_class/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/time_subscriber_class.dir/build.make CMakeFiles/time_subscriber_class.dir/build
 .PHONY : time_subscriber_class/fast
 
+#=============================================================================
+# Target rules for targets named simple_service_server
+
+# Build rule for target.
+simple_service_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_service_server
+.PHONY : simple_service_server
+
+# fast build rule for target.
+simple_service_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_server.dir/build.make CMakeFiles/simple_service_server.dir/build
+.PHONY : simple_service_server/fast
+
+#=============================================================================
+# Target rules for targets named simple_service_client
+
+# Build rule for target.
+simple_service_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_service_client
+.PHONY : simple_service_client
+
+# fast build rule for target.
+simple_service_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client.dir/build.make CMakeFiles/simple_service_client.dir/build
+.PHONY : simple_service_client/fast
+
+#=============================================================================
+# Target rules for targets named simple_service_client2
+
+# Build rule for target.
+simple_service_client2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_service_client2
+.PHONY : simple_service_client2
+
+# fast build rule for target.
+simple_service_client2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client2.dir/build.make CMakeFiles/simple_service_client2.dir/build
+.PHONY : simple_service_client2/fast
+
 src/helloOpenCV.o: src/helloOpenCV.cpp.o
 .PHONY : src/helloOpenCV.o
 
@@ -506,6 +545,78 @@ src/publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_publisher_class2.dir/build.make CMakeFiles/hello_publisher_class2.dir/src/publisher.cpp.s
 .PHONY : src/publisher.cpp.s
 
+src/simple_service_client.o: src/simple_service_client.cpp.o
+.PHONY : src/simple_service_client.o
+
+# target to build an object file
+src/simple_service_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client.dir/build.make CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.o
+.PHONY : src/simple_service_client.cpp.o
+
+src/simple_service_client.i: src/simple_service_client.cpp.i
+.PHONY : src/simple_service_client.i
+
+# target to preprocess a source file
+src/simple_service_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client.dir/build.make CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.i
+.PHONY : src/simple_service_client.cpp.i
+
+src/simple_service_client.s: src/simple_service_client.cpp.s
+.PHONY : src/simple_service_client.s
+
+# target to generate assembly for a file
+src/simple_service_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client.dir/build.make CMakeFiles/simple_service_client.dir/src/simple_service_client.cpp.s
+.PHONY : src/simple_service_client.cpp.s
+
+src/simple_service_client2.o: src/simple_service_client2.cpp.o
+.PHONY : src/simple_service_client2.o
+
+# target to build an object file
+src/simple_service_client2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client2.dir/build.make CMakeFiles/simple_service_client2.dir/src/simple_service_client2.cpp.o
+.PHONY : src/simple_service_client2.cpp.o
+
+src/simple_service_client2.i: src/simple_service_client2.cpp.i
+.PHONY : src/simple_service_client2.i
+
+# target to preprocess a source file
+src/simple_service_client2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client2.dir/build.make CMakeFiles/simple_service_client2.dir/src/simple_service_client2.cpp.i
+.PHONY : src/simple_service_client2.cpp.i
+
+src/simple_service_client2.s: src/simple_service_client2.cpp.s
+.PHONY : src/simple_service_client2.s
+
+# target to generate assembly for a file
+src/simple_service_client2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client2.dir/build.make CMakeFiles/simple_service_client2.dir/src/simple_service_client2.cpp.s
+.PHONY : src/simple_service_client2.cpp.s
+
+src/simple_service_server.o: src/simple_service_server.cpp.o
+.PHONY : src/simple_service_server.o
+
+# target to build an object file
+src/simple_service_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_server.dir/build.make CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o
+.PHONY : src/simple_service_server.cpp.o
+
+src/simple_service_server.i: src/simple_service_server.cpp.i
+.PHONY : src/simple_service_server.i
+
+# target to preprocess a source file
+src/simple_service_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_server.dir/build.make CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.i
+.PHONY : src/simple_service_server.cpp.i
+
+src/simple_service_server.s: src/simple_service_server.cpp.s
+.PHONY : src/simple_service_server.s
+
+# target to generate assembly for a file
+src/simple_service_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_server.dir/build.make CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.s
+.PHONY : src/simple_service_server.cpp.s
+
 src/subscriber.o: src/subscriber.cpp.o
 .PHONY : src/subscriber.o
 
@@ -648,6 +759,9 @@ help:
 	@echo "... hello_publisher_class2"
 	@echo "... hello_subscriber_class"
 	@echo "... helloword"
+	@echo "... simple_service_client"
+	@echo "... simple_service_client2"
+	@echo "... simple_service_server"
 	@echo "... time_publisher_class"
 	@echo "... time_subscriber_class"
 	@echo "... src/helloOpenCV.o"
@@ -674,6 +788,15 @@ help:
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"
 	@echo "... src/publisher.s"
+	@echo "... src/simple_service_client.o"
+	@echo "... src/simple_service_client.i"
+	@echo "... src/simple_service_client.s"
+	@echo "... src/simple_service_client2.o"
+	@echo "... src/simple_service_client2.i"
+	@echo "... src/simple_service_client2.s"
+	@echo "... src/simple_service_server.o"
+	@echo "... src/simple_service_server.i"
+	@echo "... src/simple_service_server.s"
 	@echo "... src/subscriber.o"
 	@echo "... src/subscriber.i"
 	@echo "... src/subscriber.s"

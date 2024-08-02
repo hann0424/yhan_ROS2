@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "moveTurtleSim" "moveTurtleSim2" "moveTurtleBot" "moveTurtleBot2" "DESTINATION" "lib/move_t_sim")
+# install("TARGETS" "moveTurtleSim" "moveTurtleBot" "moveTurtleBot2" "DESTINATION" "lib/move_t_sim")
 include("/home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/move_t_sim" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

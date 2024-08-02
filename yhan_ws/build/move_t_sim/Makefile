@@ -211,19 +211,6 @@ moveTurtleSim/fast:
 .PHONY : moveTurtleSim/fast
 
 #=============================================================================
-# Target rules for targets named moveTurtleSim2
-
-# Build rule for target.
-moveTurtleSim2: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moveTurtleSim2
-.PHONY : moveTurtleSim2
-
-# fast build rule for target.
-moveTurtleSim2/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim2.dir/build.make CMakeFiles/moveTurtleSim2.dir/build
-.PHONY : moveTurtleSim2/fast
-
-#=============================================================================
 # Target rules for targets named moveTurtleBot
 
 # Build rule for target.
@@ -272,30 +259,6 @@ src/moveTurtle.s: src/moveTurtle.cpp.s
 src/moveTurtle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim.dir/build.make CMakeFiles/moveTurtleSim.dir/src/moveTurtle.cpp.s
 .PHONY : src/moveTurtle.cpp.s
-
-src/moveTurtle2.o: src/moveTurtle2.cpp.o
-.PHONY : src/moveTurtle2.o
-
-# target to build an object file
-src/moveTurtle2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim2.dir/build.make CMakeFiles/moveTurtleSim2.dir/src/moveTurtle2.cpp.o
-.PHONY : src/moveTurtle2.cpp.o
-
-src/moveTurtle2.i: src/moveTurtle2.cpp.i
-.PHONY : src/moveTurtle2.i
-
-# target to preprocess a source file
-src/moveTurtle2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim2.dir/build.make CMakeFiles/moveTurtleSim2.dir/src/moveTurtle2.cpp.i
-.PHONY : src/moveTurtle2.cpp.i
-
-src/moveTurtle2.s: src/moveTurtle2.cpp.s
-.PHONY : src/moveTurtle2.s
-
-# target to generate assembly for a file
-src/moveTurtle2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim2.dir/build.make CMakeFiles/moveTurtleSim2.dir/src/moveTurtle2.cpp.s
-.PHONY : src/moveTurtle2.cpp.s
 
 src/moveTurtleBot.o: src/moveTurtleBot.cpp.o
 .PHONY : src/moveTurtleBot.o
@@ -417,30 +380,6 @@ src/moveTurtleSim.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim.dir/build.make CMakeFiles/moveTurtleSim.dir/src/moveTurtleSim.cpp.s
 .PHONY : src/moveTurtleSim.cpp.s
 
-src/moveTurtleSim2.o: src/moveTurtleSim2.cpp.o
-.PHONY : src/moveTurtleSim2.o
-
-# target to build an object file
-src/moveTurtleSim2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim2.dir/build.make CMakeFiles/moveTurtleSim2.dir/src/moveTurtleSim2.cpp.o
-.PHONY : src/moveTurtleSim2.cpp.o
-
-src/moveTurtleSim2.i: src/moveTurtleSim2.cpp.i
-.PHONY : src/moveTurtleSim2.i
-
-# target to preprocess a source file
-src/moveTurtleSim2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim2.dir/build.make CMakeFiles/moveTurtleSim2.dir/src/moveTurtleSim2.cpp.i
-.PHONY : src/moveTurtleSim2.cpp.i
-
-src/moveTurtleSim2.s: src/moveTurtleSim2.cpp.s
-.PHONY : src/moveTurtleSim2.s
-
-# target to generate assembly for a file
-src/moveTurtleSim2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim2.dir/build.make CMakeFiles/moveTurtleSim2.dir/src/moveTurtleSim2.cpp.s
-.PHONY : src/moveTurtleSim2.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -459,13 +398,9 @@ help:
 	@echo "... moveTurtleBot"
 	@echo "... moveTurtleBot2"
 	@echo "... moveTurtleSim"
-	@echo "... moveTurtleSim2"
 	@echo "... src/moveTurtle.o"
 	@echo "... src/moveTurtle.i"
 	@echo "... src/moveTurtle.s"
-	@echo "... src/moveTurtle2.o"
-	@echo "... src/moveTurtle2.i"
-	@echo "... src/moveTurtle2.s"
 	@echo "... src/moveTurtleBot.o"
 	@echo "... src/moveTurtleBot.i"
 	@echo "... src/moveTurtleBot.s"
@@ -481,9 +416,6 @@ help:
 	@echo "... src/moveTurtleSim.o"
 	@echo "... src/moveTurtleSim.i"
 	@echo "... src/moveTurtleSim.s"
-	@echo "... src/moveTurtleSim2.o"
-	@echo "... src/moveTurtleSim2.i"
-	@echo "... src/moveTurtleSim2.s"
 .PHONY : help
 
 

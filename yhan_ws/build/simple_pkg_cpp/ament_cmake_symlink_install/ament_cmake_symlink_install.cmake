@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "helloword" "helloOpenCV" "hello_publisher" "hello_publisher2" "hello_publisher_class" "hello_publisher_class2" "hello_subscriber_class" "time_publisher_class" "time_subscriber_class" "DESTINATION" "lib/simple_pkg_cpp")
+# install("TARGETS" "helloword" "helloOpenCV" "hello_publisher" "hello_publisher2" "hello_publisher_class" "hello_publisher_class2" "hello_subscriber_class" "time_publisher_class" "time_subscriber_class" "simple_service_server" "simple_service_client" "simple_service_client2" "DESTINATION" "lib/simple_pkg_cpp")
 include("/home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/simple_pkg_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
