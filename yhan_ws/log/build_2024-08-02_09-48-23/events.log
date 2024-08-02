@@ -1,0 +1,629 @@
+[0.000000] (-) TimerEvent: {}
+[0.000945] (move_t_sim) JobQueued: {'identifier': 'move_t_sim', 'dependencies': OrderedDict()}
+[0.000984] (simple_pkg_cpp) JobQueued: {'identifier': 'simple_pkg_cpp', 'dependencies': OrderedDict()}
+[0.001205] (topic_final) JobQueued: {'identifier': 'topic_final', 'dependencies': OrderedDict()}
+[0.001248] (turtlebot3_fake_node) JobQueued: {'identifier': 'turtlebot3_fake_node', 'dependencies': OrderedDict()}
+[0.001285] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.001325] (turtlebot3_simulations) JobQueued: {'identifier': 'turtlebot3_simulations', 'dependencies': OrderedDict([('turtlebot3_fake_node', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node'), ('turtlebot3_gazebo', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo')])}
+[0.001352] (turtlebot3_fake_node) JobStarted: {'identifier': 'turtlebot3_fake_node'}
+[0.010699] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[0.019309] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'cmake'}
+[0.021593] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'build'}
+[0.021686] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_fake_node', '--', '-j2', '-l2'], 'cwd': '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_fake_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'yhan'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yhan'), ('OLDPWD', '/home/yhan/yhan_ROS2/yhan_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '986'), ('SYSTEMD_EXEC_PID', '1465'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4455'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yhan'), ('JOURNAL_STREAM', '8:35742'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yhan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yhan-virtual-machine:@/tmp/.ICE-unix/1158,unix/yhan-virtual-machine:/tmp/.ICE-unix/1158'), ('INVOCATION_ID', 'aeca8c56b5b64382b780cab45ad1a799'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQKUR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:57331e2b-8415-4baa-b7ec-a4dcba8833cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_fake_node'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble')]), 'shell': False}
+[0.032794] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[0.034940] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[0.036275] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_gazebo', '--', '-j2', '-l2'], 'cwd': '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'yhan'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yhan'), ('OLDPWD', '/home/yhan/yhan_ROS2/yhan_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '986'), ('SYSTEMD_EXEC_PID', '1465'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4455'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yhan'), ('JOURNAL_STREAM', '8:35742'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yhan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yhan-virtual-machine:@/tmp/.ICE-unix/1158,unix/yhan-virtual-machine:/tmp/.ICE-unix/1158'), ('INVOCATION_ID', 'aeca8c56b5b64382b780cab45ad1a799'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQKUR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:57331e2b-8415-4baa-b7ec-a4dcba8833cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble')]), 'shell': False}
+[0.108609] (-) TimerEvent: {}
+[0.209035] (-) TimerEvent: {}
+[0.274592] (turtlebot3_fake_node) StdoutLine: {'line': b'[100%] Built target turtlebot3_fake_node\n'}
+[0.274822] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] Built target turtlebot3_drive\n'}
+[0.289457] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] Built target obstacle1\n'}
+[0.294750] (turtlebot3_fake_node) CommandEnded: {'returncode': 0}
+[0.309658] (-) TimerEvent: {}
+[0.401742] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'install'}
+[0.409853] (-) TimerEvent: {}
+[0.417051] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_fake_node'], 'cwd': '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_fake_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'yhan'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yhan'), ('OLDPWD', '/home/yhan/yhan_ROS2/yhan_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '986'), ('SYSTEMD_EXEC_PID', '1465'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4455'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yhan'), ('JOURNAL_STREAM', '8:35742'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yhan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yhan-virtual-machine:@/tmp/.ICE-unix/1158,unix/yhan-virtual-machine:/tmp/.ICE-unix/1158'), ('INVOCATION_ID', 'aeca8c56b5b64382b780cab45ad1a799'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQKUR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:57331e2b-8415-4baa-b7ec-a4dcba8833cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_fake_node'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble')]), 'shell': False}
+[0.417815] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] Built target obstacle2\n'}
+[0.436651] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacles\n'}
+[0.451874] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.452134] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.452928] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node\n'}
+[0.458769] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py\n'}
+[0.459006] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py\n'}
+[0.459074] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml\n'}
+[0.459130] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml\n'}
+[0.459230] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml\n'}
+[0.459301] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp\n'}
+[0.459358] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node\n'}
+[0.459424] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node\n'}
+[0.459474] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh\n'}
+[0.478275] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv\n'}
+[0.478529] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh\n'}
+[0.478606] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv\n'}
+[0.478663] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash\n'}
+[0.478752] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh\n'}
+[0.478812] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh\n'}
+[0.478867] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv\n'}
+[0.478922] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv\n'}
+[0.497197] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[0.497789] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node\n'}
+[0.497963] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.498030] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.498090] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake\n'}
+[0.498152] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake\n'}
+[0.498305] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml\n'}
+[0.500519] (turtlebot3_fake_node) CommandEnded: {'returncode': 0}
+[0.510111] (-) TimerEvent: {}
+[0.561634] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'install'}
+[0.562214] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_gazebo'], 'cwd': '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'yhan'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yhan'), ('OLDPWD', '/home/yhan/yhan_ROS2/yhan_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '986'), ('SYSTEMD_EXEC_PID', '1465'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4455'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yhan'), ('JOURNAL_STREAM', '8:35742'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yhan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yhan-virtual-machine:@/tmp/.ICE-unix/1158,unix/yhan-virtual-machine:/tmp/.ICE-unix/1158'), ('INVOCATION_ID', 'aeca8c56b5b64382b780cab45ad1a799'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQKUR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:57331e2b-8415-4baa-b7ec-a4dcba8833cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble')]), 'shell': False}
+[0.573397] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.575403] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.576980] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive\n'}
+[0.581089] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py\n'}
+[0.582833] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py\n'}
+[0.584479] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py\n'}
+[0.585596] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py\n'}
+[0.586133] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py\n'}
+[0.586658] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py\n'}
+[0.587143] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py\n'}
+[0.587650] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py\n'}
+[0.588134] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py\n'}
+[0.589329] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf\n'}
+[0.589866] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config\n'}
+[0.590374] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf\n'}
+[0.590881] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae\n'}
+[0.591378] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae\n'}
+[0.591888] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae\n'}
+[0.592402] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae\n'}
+[0.592957] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae\n'}
+[0.593456] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae\n'}
+[0.593954] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config\n'}
+[0.594460] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config\n'}
+[0.594929] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf\n'}
+[0.595785] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config\n'}
+[0.596249] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf\n'}
+[0.596748] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config\n'}
+[0.597213] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf\n'}
+[0.597667] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config\n'}
+[0.598114] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf\n'}
+[0.598587] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config\n'}
+[0.599031] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf\n'}
+[0.599515] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/CMakeLists.txt\n'}
+[0.599986] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc\n'}
+[0.600608] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc\n'}
+[0.601132] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc\n'}
+[0.601585] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config\n'}
+[0.602029] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf\n'}
+[0.602571] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config\n'}
+[0.603017] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf\n'}
+[0.603462] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf\n'}
+[0.603916] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config\n'}
+[0.604356] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf\n'}
+[0.604558] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf\n'}
+[0.605260] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config\n'}
+[0.605420] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf\n'}
+[0.605583] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae\n'}
+[0.606527] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae\n'}
+[0.606794] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf\n'}
+[0.606957] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config\n'}
+[0.607136] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf\n'}
+[0.608545] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz\n'}
+[0.608876] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf\n'}
+[0.609063] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf\n'}
+[0.610076] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf\n'}
+[0.610130] (-) TimerEvent: {}
+[0.610338] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf\n'}
+[0.610619] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world\n'}
+[0.611603] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world\n'}
+[0.611807] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world\n'}
+[0.611964] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world\n'}
+[0.612104] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world\n'}
+[0.612291] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world\n'}
+[0.614144] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world\n'}
+[0.614493] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp\n'}
+[0.614715] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo\n'}
+[0.614933] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo\n'}
+[0.615116] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh\n'}
+[0.615322] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv\n'}
+[0.615497] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh\n'}
+[0.615747] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv\n'}
+[0.618078] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash\n'}
+[0.618303] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh\n'}
+[0.618500] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh\n'}
+[0.618692] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv\n'}
+[0.618861] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv\n'}
+[0.630849] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo\n'}
+[0.635118] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.635209] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.635284] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake\n'}
+[0.635333] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake\n'}
+[0.635375] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml\n'}
+[0.641338] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[0.696748] (turtlebot3_fake_node) JobEnded: {'identifier': 'turtlebot3_fake_node', 'rc': 0}
+[0.699018] (move_t_sim) JobStarted: {'identifier': 'move_t_sim'}
+[0.717011] (-) TimerEvent: {}
+[0.719769] (move_t_sim) JobProgress: {'identifier': 'move_t_sim', 'progress': 'cmake'}
+[0.728828] (move_t_sim) JobProgress: {'identifier': 'move_t_sim', 'progress': 'build'}
+[0.737039] (move_t_sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim', '--', '-j2', '-l2'], 'cwd': '/home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'yhan'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yhan'), ('OLDPWD', '/home/yhan/yhan_ROS2/yhan_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '986'), ('SYSTEMD_EXEC_PID', '1465'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4455'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yhan'), ('JOURNAL_STREAM', '8:35742'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yhan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yhan-virtual-machine:@/tmp/.ICE-unix/1158,unix/yhan-virtual-machine:/tmp/.ICE-unix/1158'), ('INVOCATION_ID', 'aeca8c56b5b64382b780cab45ad1a799'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQKUR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:57331e2b-8415-4baa-b7ec-a4dcba8833cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble')]), 'shell': False}
+[0.766816] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 0}
+[0.767929] (simple_pkg_cpp) JobStarted: {'identifier': 'simple_pkg_cpp'}
+[0.797525] (simple_pkg_cpp) JobProgress: {'identifier': 'simple_pkg_cpp', 'progress': 'cmake'}
+[0.797934] (simple_pkg_cpp) JobProgress: {'identifier': 'simple_pkg_cpp', 'progress': 'build'}
+[0.797979] (simple_pkg_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp', '--', '-j2', '-l2'], 'cwd': '/home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'yhan'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yhan'), ('OLDPWD', '/home/yhan/yhan_ROS2/yhan_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '986'), ('SYSTEMD_EXEC_PID', '1465'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4455'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yhan'), ('JOURNAL_STREAM', '8:35742'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yhan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yhan-virtual-machine:@/tmp/.ICE-unix/1158,unix/yhan-virtual-machine:/tmp/.ICE-unix/1158'), ('INVOCATION_ID', 'aeca8c56b5b64382b780cab45ad1a799'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQKUR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:57331e2b-8415-4baa-b7ec-a4dcba8833cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble')]), 'shell': False}
+[0.817911] (-) TimerEvent: {}
+[0.831485] (move_t_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.918034] (-) TimerEvent: {}
+[0.930113] (simple_pkg_cpp) StdoutLine: {'line': b'[  9%] Built target helloword\n'}
+[0.950415] (simple_pkg_cpp) StdoutLine: {'line': b'[ 18%] Built target helloOpenCV\n'}
+[1.018206] (-) TimerEvent: {}
+[1.040992] (simple_pkg_cpp) StdoutLine: {'line': b'[ 27%] Built target hello_publisher\n'}
+[1.060449] (simple_pkg_cpp) StdoutLine: {'line': b'[ 36%] Built target hello_publisher2\n'}
+[1.070636] (move_t_sim) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.103337] (move_t_sim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.103573] (simple_pkg_cpp) StdoutLine: {'line': b'[ 45%] Built target hello_publisher_class\n'}
+[1.118456] (-) TimerEvent: {}
+[1.172692] (move_t_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.172945] (simple_pkg_cpp) StdoutLine: {'line': b'[ 59%] Built target hello_publisher_class2\n'}
+[1.181768] (move_t_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.199601] (move_t_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.202566] (simple_pkg_cpp) StdoutLine: {'line': b'[ 72%] Built target hello_subscriber_class\n'}
+[1.218635] (-) TimerEvent: {}
+[1.219303] (move_t_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.264595] (move_t_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.304603] (simple_pkg_cpp) StdoutLine: {'line': b'[ 86%] Built target time_publisher_class\n'}
+[1.329292] (-) TimerEvent: {}
+[1.332670] (simple_pkg_cpp) StdoutLine: {'line': b'[100%] Built target time_subscriber_class\n'}
+[1.364274] (simple_pkg_cpp) CommandEnded: {'returncode': 0}
+[1.379560] (move_t_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.386267] (move_t_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.429598] (-) TimerEvent: {}
+[1.530660] (-) TimerEvent: {}
+[1.550834] (move_t_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.580921] (simple_pkg_cpp) JobProgress: {'identifier': 'simple_pkg_cpp', 'progress': 'install'}
+[1.581045] (simple_pkg_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp'], 'cwd': '/home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'yhan'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yhan'), ('OLDPWD', '/home/yhan/yhan_ROS2/yhan_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '986'), ('SYSTEMD_EXEC_PID', '1465'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4455'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yhan'), ('JOURNAL_STREAM', '8:35742'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yhan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yhan-virtual-machine:@/tmp/.ICE-unix/1158,unix/yhan-virtual-machine:/tmp/.ICE-unix/1158'), ('INVOCATION_ID', 'aeca8c56b5b64382b780cab45ad1a799'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQKUR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:57331e2b-8415-4baa-b7ec-a4dcba8833cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yhan/yhan_ROS2/yhan_ws/build/simple_pkg_cpp'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble')]), 'shell': False}
+[1.613714] (simple_pkg_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.620798] (simple_pkg_cpp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.621831] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/helloword\n'}
+[1.622907] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/helloOpenCV\n'}
+[1.622996] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_publisher\n'}
+[1.624629] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_publisher2\n'}
+[1.624730] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_publisher_class\n'}
+[1.624875] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_publisher_class2\n'}
+[1.624936] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/hello_subscriber_class\n'}
+[1.624996] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/time_publisher_class\n'}
+[1.625055] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/lib/simple_pkg_cpp/time_subscriber_class\n'}
+[1.625136] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/ament_index/resource_index/package_run_dependencies/simple_pkg_cpp\n'}
+[1.625197] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/ament_index/resource_index/parent_prefix_path/simple_pkg_cpp\n'}
+[1.625256] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.sh\n'}
+[1.625312] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/ament_prefix_path.dsv\n'}
+[1.625368] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.sh\n'}
+[1.625449] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/environment/path.dsv\n'}
+[1.625506] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.bash\n'}
+[1.625562] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.sh\n'}
+[1.625620] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.zsh\n'}
+[1.625673] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/local_setup.dsv\n'}
+[1.625745] (simple_pkg_cpp) StdoutLine: {'line': b'-- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.dsv\n'}
+[1.634792] (-) TimerEvent: {}
+[1.657833] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/ament_index/resource_index/packages/simple_pkg_cpp\n'}
+[1.658456] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig.cmake\n'}
+[1.659834] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/cmake/simple_pkg_cppConfig-version.cmake\n'}
+[1.661906] (simple_pkg_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp/share/simple_pkg_cpp/package.xml\n'}
+[1.662287] (simple_pkg_cpp) CommandEnded: {'returncode': 0}
+[1.740486] (-) TimerEvent: {}
+[1.841066] (-) TimerEvent: {}
+[1.893034] (move_t_sim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.941153] (-) TimerEvent: {}
+[1.949980] (move_t_sim) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.974773] (simple_pkg_cpp) JobEnded: {'identifier': 'simple_pkg_cpp', 'rc': 0}
+[1.975572] (topic_final) JobStarted: {'identifier': 'topic_final'}
+[2.005169] (topic_final) JobProgress: {'identifier': 'topic_final', 'progress': 'cmake'}
+[2.009816] (topic_final) JobProgress: {'identifier': 'topic_final', 'progress': 'build'}
+[2.010118] (topic_final) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yhan/yhan_ROS2/yhan_ws/build/topic_final', '--', '-j2', '-l2'], 'cwd': '/home/yhan/yhan_ROS2/yhan_ws/build/topic_final', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'yhan'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yhan'), ('OLDPWD', '/home/yhan/yhan_ROS2/yhan_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '986'), ('SYSTEMD_EXEC_PID', '1465'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4455'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yhan'), ('JOURNAL_STREAM', '8:35742'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yhan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yhan-virtual-machine:@/tmp/.ICE-unix/1158,unix/yhan-virtual-machine:/tmp/.ICE-unix/1158'), ('INVOCATION_ID', 'aeca8c56b5b64382b780cab45ad1a799'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQKUR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:57331e2b-8415-4baa-b7ec-a4dcba8833cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yhan/yhan_ROS2/yhan_ws/build/topic_final'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble')]), 'shell': False}
+[2.041307] (-) TimerEvent: {}
+[2.112593] (move_t_sim) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[2.144554] (-) TimerEvent: {}
+[2.178302] (topic_final) StdoutLine: {'line': b'[ 20%] Built target mpub\n'}
+[2.212778] (topic_final) StdoutLine: {'line': b'[ 40%] Built target msub\n'}
+[2.245022] (-) TimerEvent: {}
+[2.282025] (topic_final) StdoutLine: {'line': b'[ 60%] Built target msub2\n'}
+[2.296495] (topic_final) StdoutLine: {'line': b'[ 80%] Built target tpub\n'}
+[2.345343] (-) TimerEvent: {}
+[2.350033] (move_t_sim) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.352612] (topic_final) StdoutLine: {'line': b'[100%] Built target mtsub\n'}
+[2.381620] (topic_final) CommandEnded: {'returncode': 0}
+[2.382287] (move_t_sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.427237] (topic_final) JobProgress: {'identifier': 'topic_final', 'progress': 'install'}
+[2.437286] (topic_final) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yhan/yhan_ROS2/yhan_ws/build/topic_final'], 'cwd': '/home/yhan/yhan_ROS2/yhan_ws/build/topic_final', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'yhan'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yhan'), ('OLDPWD', '/home/yhan/yhan_ROS2/yhan_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '986'), ('SYSTEMD_EXEC_PID', '1465'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4455'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yhan'), ('JOURNAL_STREAM', '8:35742'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yhan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yhan-virtual-machine:@/tmp/.ICE-unix/1158,unix/yhan-virtual-machine:/tmp/.ICE-unix/1158'), ('INVOCATION_ID', 'aeca8c56b5b64382b780cab45ad1a799'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQKUR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:57331e2b-8415-4baa-b7ec-a4dcba8833cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yhan/yhan_ROS2/yhan_ws/build/topic_final'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble')]), 'shell': False}
+[2.445762] (-) TimerEvent: {}
+[2.456053] (topic_final) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.457582] (topic_final) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.461418] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/lib/topic_final/mpub\n'}
+[2.461557] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/lib/topic_final/msub\n'}
+[2.461625] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/lib/topic_final/msub2\n'}
+[2.461684] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/lib/topic_final/tpub\n'}
+[2.461741] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/lib/topic_final/mtsub\n'}
+[2.461795] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/share/ament_index/resource_index/package_run_dependencies/topic_final\n'}
+[2.461869] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/share/ament_index/resource_index/parent_prefix_path/topic_final\n'}
+[2.461926] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/share/topic_final/environment/ament_prefix_path.sh\n'}
+[2.461983] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/share/topic_final/environment/ament_prefix_path.dsv\n'}
+[2.462037] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/share/topic_final/environment/path.sh\n'}
+[2.462093] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/share/topic_final/environment/path.dsv\n'}
+[2.462166] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/share/topic_final/local_setup.bash\n'}
+[2.462220] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/share/topic_final/local_setup.sh\n'}
+[2.462274] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/share/topic_final/local_setup.zsh\n'}
+[2.462327] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/share/topic_final/local_setup.dsv\n'}
+[2.462381] (topic_final) StdoutLine: {'line': b'-- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/share/topic_final/package.dsv\n'}
+[2.487140] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/share/ament_index/resource_index/packages/topic_final\n'}
+[2.487433] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/share/topic_final/cmake/topic_finalConfig.cmake\n'}
+[2.487505] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/share/topic_final/cmake/topic_finalConfig-version.cmake\n'}
+[2.487561] (topic_final) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/topic_final/share/topic_final/package.xml\n'}
+[2.490764] (topic_final) CommandEnded: {'returncode': 0}
+[2.539807] (move_t_sim) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.540020] (move_t_sim) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/yhan/yhan_ROS2/yhan_ws/src/move_t_sim/include\n'}
+[2.540067] (move_t_sim) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.540928] (move_t_sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.542820] (move_t_sim) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.543105] (move_t_sim) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.544442] (move_t_sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.546231] (-) TimerEvent: {}
+[2.548184] (move_t_sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.588488] (move_t_sim) StdoutLine: {'line': b'-- Generating done\n'}
+[2.589663] (move_t_sim) StdoutLine: {'line': b'-- Build files have been written to: /home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim\n'}
+[2.625054] (move_t_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveTurtleSim\x1b[0m\n'}
+[2.646667] (-) TimerEvent: {}
+[2.646982] (move_t_sim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/moveTurtleSim2.dir/src/moveTurtleSim2.cpp.o\x1b[0m\n'}
+[2.664402] (move_t_sim) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/moveTurtleSim.dir/src/moveTurtleSim.cpp.o\x1b[0m\n'}
+[2.704694] (topic_final) JobEnded: {'identifier': 'topic_final', 'rc': 0}
+[2.705649] (turtlebot3_simulations) JobStarted: {'identifier': 'turtlebot3_simulations'}
+[2.746823] (turtlebot3_simulations) JobProgress: {'identifier': 'turtlebot3_simulations', 'progress': 'cmake'}
+[2.746940] (-) TimerEvent: {}
+[2.758608] (turtlebot3_simulations) JobProgress: {'identifier': 'turtlebot3_simulations', 'progress': 'build'}
+[2.759012] (turtlebot3_simulations) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_simulations', '--', '-j2', '-l2'], 'cwd': '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_simulations', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'yhan'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yhan'), ('OLDPWD', '/home/yhan/yhan_ROS2/yhan_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '986'), ('SYSTEMD_EXEC_PID', '1465'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4455'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yhan'), ('JOURNAL_STREAM', '8:35742'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yhan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yhan-virtual-machine:@/tmp/.ICE-unix/1158,unix/yhan-virtual-machine:/tmp/.ICE-unix/1158'), ('INVOCATION_ID', 'aeca8c56b5b64382b780cab45ad1a799'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQKUR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:57331e2b-8415-4baa-b7ec-a4dcba8833cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_simulations'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble')]), 'shell': False}
+[2.847856] (-) TimerEvent: {}
+[2.948689] (-) TimerEvent: {}
+[2.960141] (turtlebot3_simulations) CommandEnded: {'returncode': 0}
+[3.048997] (-) TimerEvent: {}
+[3.097991] (turtlebot3_simulations) JobProgress: {'identifier': 'turtlebot3_simulations', 'progress': 'install'}
+[3.098065] (turtlebot3_simulations) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_simulations'], 'cwd': '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_simulations', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'yhan'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yhan'), ('OLDPWD', '/home/yhan/yhan_ROS2/yhan_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '986'), ('SYSTEMD_EXEC_PID', '1465'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4455'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yhan'), ('JOURNAL_STREAM', '8:35742'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yhan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yhan-virtual-machine:@/tmp/.ICE-unix/1158,unix/yhan-virtual-machine:/tmp/.ICE-unix/1158'), ('INVOCATION_ID', 'aeca8c56b5b64382b780cab45ad1a799'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQKUR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:57331e2b-8415-4baa-b7ec-a4dcba8833cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yhan/yhan_ROS2/yhan_ws/build/turtlebot3_simulations'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble')]), 'shell': False}
+[3.120952] (turtlebot3_simulations) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.124521] (turtlebot3_simulations) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.124678] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/ament_index/resource_index/package_run_dependencies/turtlebot3_simulations\n'}
+[3.124726] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/ament_index/resource_index/parent_prefix_path/turtlebot3_simulations\n'}
+[3.124768] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.sh\n'}
+[3.124820] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/ament_prefix_path.dsv\n'}
+[3.124866] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.sh\n'}
+[3.124905] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/environment/path.dsv\n'}
+[3.124944] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.bash\n'}
+[3.126832] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.sh\n'}
+[3.126976] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.zsh\n'}
+[3.127027] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/local_setup.dsv\n'}
+[3.127068] (turtlebot3_simulations) StdoutLine: {'line': b'-- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv\n'}
+[3.138323] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/ament_index/resource_index/packages/turtlebot3_simulations\n'}
+[3.141830] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig.cmake\n'}
+[3.142291] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/cmake/turtlebot3_simulationsConfig-version.cmake\n'}
+[3.146587] (turtlebot3_simulations) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations/share/turtlebot3_simulations/package.xml\n'}
+[3.160457] (turtlebot3_simulations) CommandEnded: {'returncode': 0}
+[3.162173] (-) TimerEvent: {}
+[3.232883] (turtlebot3_simulations) JobEnded: {'identifier': 'turtlebot3_simulations', 'rc': 0}
+[3.262568] (-) TimerEvent: {}
+[3.363007] (-) TimerEvent: {}
+[3.463391] (-) TimerEvent: {}
+[3.563838] (-) TimerEvent: {}
+[3.664525] (-) TimerEvent: {}
+[3.765027] (-) TimerEvent: {}
+[3.866015] (-) TimerEvent: {}
+[3.971236] (-) TimerEvent: {}
+[4.071740] (-) TimerEvent: {}
+[4.172401] (-) TimerEvent: {}
+[4.273209] (-) TimerEvent: {}
+[4.373777] (-) TimerEvent: {}
+[4.474344] (-) TimerEvent: {}
+[4.575018] (-) TimerEvent: {}
+[4.675829] (-) TimerEvent: {}
+[4.776446] (-) TimerEvent: {}
+[4.877138] (-) TimerEvent: {}
+[4.977732] (-) TimerEvent: {}
+[5.078669] (-) TimerEvent: {}
+[5.179640] (-) TimerEvent: {}
+[5.281102] (-) TimerEvent: {}
+[5.381578] (-) TimerEvent: {}
+[5.482101] (-) TimerEvent: {}
+[5.582748] (-) TimerEvent: {}
+[5.688587] (-) TimerEvent: {}
+[5.791113] (-) TimerEvent: {}
+[5.896485] (-) TimerEvent: {}
+[5.997063] (-) TimerEvent: {}
+[6.097695] (-) TimerEvent: {}
+[6.204676] (-) TimerEvent: {}
+[6.305496] (-) TimerEvent: {}
+[6.416427] (-) TimerEvent: {}
+[6.517344] (-) TimerEvent: {}
+[6.618119] (-) TimerEvent: {}
+[6.720918] (-) TimerEvent: {}
+[6.821650] (-) TimerEvent: {}
+[6.922371] (-) TimerEvent: {}
+[7.025326] (-) TimerEvent: {}
+[7.126483] (-) TimerEvent: {}
+[7.227523] (-) TimerEvent: {}
+[7.328673] (-) TimerEvent: {}
+[7.429971] (-) TimerEvent: {}
+[7.516286] (move_t_sim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/moveTurtleSim.dir/src/moveTurtle.cpp.o\x1b[0m\n'}
+[7.531592] (-) TimerEvent: {}
+[7.638703] (-) TimerEvent: {}
+[7.685783] (move_t_sim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/moveTurtleSim2.dir/src/moveTurtle2.cpp.o\x1b[0m\n'}
+[7.741170] (-) TimerEvent: {}
+[7.856980] (-) TimerEvent: {}
+[7.958212] (-) TimerEvent: {}
+[8.059190] (-) TimerEvent: {}
+[8.160356] (-) TimerEvent: {}
+[8.261801] (-) TimerEvent: {}
+[8.365089] (-) TimerEvent: {}
+[8.467315] (-) TimerEvent: {}
+[8.570310] (-) TimerEvent: {}
+[8.672165] (-) TimerEvent: {}
+[8.772760] (-) TimerEvent: {}
+[8.873240] (-) TimerEvent: {}
+[8.973851] (-) TimerEvent: {}
+[9.076235] (-) TimerEvent: {}
+[9.177299] (-) TimerEvent: {}
+[9.277782] (-) TimerEvent: {}
+[9.379826] (-) TimerEvent: {}
+[9.482447] (-) TimerEvent: {}
+[9.582921] (-) TimerEvent: {}
+[9.684323] (-) TimerEvent: {}
+[9.785318] (-) TimerEvent: {}
+[9.886265] (-) TimerEvent: {}
+[9.987783] (-) TimerEvent: {}
+[10.088882] (-) TimerEvent: {}
+[10.189457] (-) TimerEvent: {}
+[10.290248] (-) TimerEvent: {}
+[10.391361] (-) TimerEvent: {}
+[10.493677] (-) TimerEvent: {}
+[10.595903] (-) TimerEvent: {}
+[10.696658] (-) TimerEvent: {}
+[10.798824] (-) TimerEvent: {}
+[10.899819] (-) TimerEvent: {}
+[11.002800] (-) TimerEvent: {}
+[11.105947] (-) TimerEvent: {}
+[11.217080] (-) TimerEvent: {}
+[11.317671] (-) TimerEvent: {}
+[11.418554] (-) TimerEvent: {}
+[11.520516] (-) TimerEvent: {}
+[11.661652] (-) TimerEvent: {}
+[11.762358] (-) TimerEvent: {}
+[11.863220] (-) TimerEvent: {}
+[11.964563] (-) TimerEvent: {}
+[12.065787] (-) TimerEvent: {}
+[12.168233] (-) TimerEvent: {}
+[12.269322] (-) TimerEvent: {}
+[12.271583] (move_t_sim) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX executable moveTurtleSim\x1b[0m\n'}
+[12.369684] (-) TimerEvent: {}
+[12.470915] (-) TimerEvent: {}
+[12.574219] (-) TimerEvent: {}
+[12.619843] (move_t_sim) StdoutLine: {'line': b'[ 41%] Built target moveTurtleSim\n'}
+[12.657309] (move_t_sim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target moveTurtleBot\x1b[0m\n'}
+[12.674779] (-) TimerEvent: {}
+[12.688095] (move_t_sim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/moveTurtleBot.dir/src/moveTurtleBot.cpp.o\x1b[0m\n'}
+[12.775081] (-) TimerEvent: {}
+[12.875955] (-) TimerEvent: {}
+[12.977712] (-) TimerEvent: {}
+[13.078409] (-) TimerEvent: {}
+[13.181119] (-) TimerEvent: {}
+[13.281978] (-) TimerEvent: {}
+[13.383172] (-) TimerEvent: {}
+[13.484247] (-) TimerEvent: {}
+[13.585757] (-) TimerEvent: {}
+[13.687477] (-) TimerEvent: {}
+[13.789966] (-) TimerEvent: {}
+[13.892083] (-) TimerEvent: {}
+[13.994806] (-) TimerEvent: {}
+[14.097037] (-) TimerEvent: {}
+[14.197970] (-) TimerEvent: {}
+[14.300749] (-) TimerEvent: {}
+[14.403161] (-) TimerEvent: {}
+[14.504500] (-) TimerEvent: {}
+[14.606125] (-) TimerEvent: {}
+[14.706842] (-) TimerEvent: {}
+[14.808023] (-) TimerEvent: {}
+[14.909020] (-) TimerEvent: {}
+[15.011191] (-) TimerEvent: {}
+[15.112237] (-) TimerEvent: {}
+[15.215273] (-) TimerEvent: {}
+[15.319905] (-) TimerEvent: {}
+[15.421176] (-) TimerEvent: {}
+[15.522323] (-) TimerEvent: {}
+[15.624016] (-) TimerEvent: {}
+[15.725305] (-) TimerEvent: {}
+[15.827281] (-) TimerEvent: {}
+[15.929493] (-) TimerEvent: {}
+[16.030148] (-) TimerEvent: {}
+[16.136692] (-) TimerEvent: {}
+[16.220870] (move_t_sim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/moveTurtleBot.dir/src/moveTurtleBotcpp.cpp.o\x1b[0m\n'}
+[16.237592] (-) TimerEvent: {}
+[16.338589] (-) TimerEvent: {}
+[16.439137] (-) TimerEvent: {}
+[16.540075] (-) TimerEvent: {}
+[16.640915] (-) TimerEvent: {}
+[16.742274] (-) TimerEvent: {}
+[16.843173] (-) TimerEvent: {}
+[16.945081] (-) TimerEvent: {}
+[17.045954] (-) TimerEvent: {}
+[17.147616] (-) TimerEvent: {}
+[17.248641] (-) TimerEvent: {}
+[17.350750] (-) TimerEvent: {}
+[17.452755] (-) TimerEvent: {}
+[17.554937] (-) TimerEvent: {}
+[17.657745] (-) TimerEvent: {}
+[17.761170] (-) TimerEvent: {}
+[17.863391] (-) TimerEvent: {}
+[17.912385] (move_t_sim) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable moveTurtleSim2\x1b[0m\n'}
+[17.964780] (-) TimerEvent: {}
+[18.065722] (-) TimerEvent: {}
+[18.167324] (-) TimerEvent: {}
+[18.271506] (-) TimerEvent: {}
+[18.371945] (-) TimerEvent: {}
+[18.477991] (-) TimerEvent: {}
+[18.583834] (-) TimerEvent: {}
+[18.685243] (-) TimerEvent: {}
+[18.697245] (move_t_sim) StdoutLine: {'line': b'[ 66%] Built target moveTurtleSim2\n'}
+[18.775933] (move_t_sim) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/moveTurtleBot2.dir/src/moveTurtleBot2.cpp.o\x1b[0m\n'}
+[18.785848] (-) TimerEvent: {}
+[18.892069] (-) TimerEvent: {}
+[18.996398] (-) TimerEvent: {}
+[19.099358] (-) TimerEvent: {}
+[19.199937] (-) TimerEvent: {}
+[19.302970] (-) TimerEvent: {}
+[19.409154] (-) TimerEvent: {}
+[19.510905] (-) TimerEvent: {}
+[19.612634] (-) TimerEvent: {}
+[19.712946] (-) TimerEvent: {}
+[19.813774] (-) TimerEvent: {}
+[19.916131] (-) TimerEvent: {}
+[20.022598] (-) TimerEvent: {}
+[20.123472] (-) TimerEvent: {}
+[20.228130] (-) TimerEvent: {}
+[20.328992] (-) TimerEvent: {}
+[20.429722] (-) TimerEvent: {}
+[20.530273] (-) TimerEvent: {}
+[20.630757] (-) TimerEvent: {}
+[20.734595] (-) TimerEvent: {}
+[20.835244] (-) TimerEvent: {}
+[20.935589] (-) TimerEvent: {}
+[21.036751] (-) TimerEvent: {}
+[21.137414] (-) TimerEvent: {}
+[21.239047] (-) TimerEvent: {}
+[21.339616] (-) TimerEvent: {}
+[21.440362] (-) TimerEvent: {}
+[21.540902] (-) TimerEvent: {}
+[21.642433] (-) TimerEvent: {}
+[21.743512] (-) TimerEvent: {}
+[21.845703] (-) TimerEvent: {}
+[21.948825] (-) TimerEvent: {}
+[22.050053] (-) TimerEvent: {}
+[22.152437] (-) TimerEvent: {}
+[22.254403] (-) TimerEvent: {}
+[22.355240] (-) TimerEvent: {}
+[22.445152] (move_t_sim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/moveTurtleBot2.dir/src/moveTurtleBotcpp2.cpp.o\x1b[0m\n'}
+[22.457929] (-) TimerEvent: {}
+[22.558551] (-) TimerEvent: {}
+[22.661860] (-) TimerEvent: {}
+[22.770655] (-) TimerEvent: {}
+[22.872119] (-) TimerEvent: {}
+[22.972664] (-) TimerEvent: {}
+[23.076785] (-) TimerEvent: {}
+[23.181603] (-) TimerEvent: {}
+[23.289119] (-) TimerEvent: {}
+[23.389775] (-) TimerEvent: {}
+[23.497215] (-) TimerEvent: {}
+[23.597902] (-) TimerEvent: {}
+[23.700842] (-) TimerEvent: {}
+[23.801317] (-) TimerEvent: {}
+[23.902571] (-) TimerEvent: {}
+[24.004176] (-) TimerEvent: {}
+[24.104712] (-) TimerEvent: {}
+[24.206953] (-) TimerEvent: {}
+[24.312438] (-) TimerEvent: {}
+[24.415799] (-) TimerEvent: {}
+[24.516911] (-) TimerEvent: {}
+[24.618532] (-) TimerEvent: {}
+[24.719450] (-) TimerEvent: {}
+[24.821008] (-) TimerEvent: {}
+[24.921935] (-) TimerEvent: {}
+[25.022999] (-) TimerEvent: {}
+[25.125172] (-) TimerEvent: {}
+[25.227541] (-) TimerEvent: {}
+[25.328730] (-) TimerEvent: {}
+[25.431535] (-) TimerEvent: {}
+[25.534767] (-) TimerEvent: {}
+[25.635995] (-) TimerEvent: {}
+[25.738381] (-) TimerEvent: {}
+[25.839931] (-) TimerEvent: {}
+[25.940679] (-) TimerEvent: {}
+[26.041384] (-) TimerEvent: {}
+[26.144648] (-) TimerEvent: {}
+[26.245397] (-) TimerEvent: {}
+[26.346999] (-) TimerEvent: {}
+[26.448184] (-) TimerEvent: {}
+[26.549586] (-) TimerEvent: {}
+[26.658317] (-) TimerEvent: {}
+[26.759015] (-) TimerEvent: {}
+[26.859564] (-) TimerEvent: {}
+[26.961121] (-) TimerEvent: {}
+[27.062188] (-) TimerEvent: {}
+[27.162864] (-) TimerEvent: {}
+[27.264880] (-) TimerEvent: {}
+[27.367237] (-) TimerEvent: {}
+[27.397532] (move_t_sim) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX executable moveTurtleBot\x1b[0m\n'}
+[27.467416] (-) TimerEvent: {}
+[27.576947] (-) TimerEvent: {}
+[27.678147] (-) TimerEvent: {}
+[27.778880] (-) TimerEvent: {}
+[27.880579] (-) TimerEvent: {}
+[27.881414] (move_t_sim) StdoutLine: {'line': b'[ 91%] Built target moveTurtleBot\n'}
+[27.981021] (-) TimerEvent: {}
+[28.081514] (-) TimerEvent: {}
+[28.183111] (-) TimerEvent: {}
+[28.286555] (-) TimerEvent: {}
+[28.388924] (-) TimerEvent: {}
+[28.490632] (-) TimerEvent: {}
+[28.591170] (-) TimerEvent: {}
+[28.691802] (-) TimerEvent: {}
+[28.797812] (-) TimerEvent: {}
+[28.898365] (-) TimerEvent: {}
+[28.999142] (-) TimerEvent: {}
+[29.099597] (-) TimerEvent: {}
+[29.200156] (-) TimerEvent: {}
+[29.300918] (-) TimerEvent: {}
+[29.401728] (-) TimerEvent: {}
+[29.502664] (-) TimerEvent: {}
+[29.603124] (-) TimerEvent: {}
+[29.703693] (-) TimerEvent: {}
+[29.804668] (-) TimerEvent: {}
+[29.905034] (-) TimerEvent: {}
+[30.005706] (-) TimerEvent: {}
+[30.106504] (-) TimerEvent: {}
+[30.207147] (-) TimerEvent: {}
+[30.307575] (-) TimerEvent: {}
+[30.408290] (-) TimerEvent: {}
+[30.508871] (-) TimerEvent: {}
+[30.609706] (-) TimerEvent: {}
+[30.710291] (-) TimerEvent: {}
+[30.810811] (-) TimerEvent: {}
+[30.911414] (-) TimerEvent: {}
+[31.011980] (-) TimerEvent: {}
+[31.112406] (-) TimerEvent: {}
+[31.174756] (move_t_sim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable moveTurtleBot2\x1b[0m\n'}
+[31.216077] (-) TimerEvent: {}
+[31.318633] (-) TimerEvent: {}
+[31.420563] (-) TimerEvent: {}
+[31.521071] (-) TimerEvent: {}
+[31.525816] (move_t_sim) StdoutLine: {'line': b'[100%] Built target moveTurtleBot2\n'}
+[31.539927] (move_t_sim) CommandEnded: {'returncode': 0}
+[31.613436] (move_t_sim) JobProgress: {'identifier': 'move_t_sim', 'progress': 'install'}
+[31.614441] (move_t_sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim'], 'cwd': '/home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'ko:en'), ('USER', 'yhan'), ('LC_TIME', 'ko_KR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/yhan'), ('OLDPWD', '/home/yhan/yhan_ROS2/yhan_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '986'), ('SYSTEMD_EXEC_PID', '1465'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4455'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'yhan'), ('JOURNAL_STREAM', '8:35742'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'yhan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/yhan-virtual-machine:@/tmp/.ICE-unix/1158,unix/yhan-virtual-machine:/tmp/.ICE-unix/1158'), ('INVOCATION_ID', 'aeca8c56b5b64382b780cab45ad1a799'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ko_KR.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQKUR2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:57331e2b-8415-4baa-b7ec-a4dcba8833cc'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_simulations:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_gazebo:/home/yhan/yhan_ROS2/yhan_ws/install/turtlebot3_fake_node:/home/yhan/yhan_ROS2/yhan_ws/install/topic_final:/home/yhan/yhan_ROS2/yhan_ws/install/simple_pkg_cpp:/home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim:/opt/ros/humble')]), 'shell': False}
+[31.620962] (move_t_sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.621105] (-) TimerEvent: {}
+[31.621683] (move_t_sim) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[31.622164] (move_t_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/lib/move_t_sim/moveTurtleSim\n'}
+[31.622491] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/lib/move_t_sim/moveTurtleSim2\n'}
+[31.630051] (move_t_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/lib/move_t_sim/moveTurtleBot\n'}
+[31.630325] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/lib/move_t_sim/moveTurtleBot2\n'}
+[31.638075] (move_t_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/ament_index/resource_index/package_run_dependencies/move_t_sim\n'}
+[31.638430] (move_t_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/ament_index/resource_index/parent_prefix_path/move_t_sim\n'}
+[31.638754] (move_t_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/environment/ament_prefix_path.sh\n'}
+[31.638851] (move_t_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/environment/ament_prefix_path.dsv\n'}
+[31.638941] (move_t_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/environment/path.sh\n'}
+[31.639039] (move_t_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/environment/path.dsv\n'}
+[31.639168] (move_t_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/local_setup.bash\n'}
+[31.639257] (move_t_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/local_setup.sh\n'}
+[31.639343] (move_t_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/local_setup.zsh\n'}
+[31.639430] (move_t_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/local_setup.dsv\n'}
+[31.639510] (move_t_sim) StdoutLine: {'line': b'-- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/package.dsv\n'}
+[31.650818] (move_t_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/ament_index/resource_index/packages/move_t_sim\n'}
+[31.651051] (move_t_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/cmake/move_t_simConfig.cmake\n'}
+[31.651410] (move_t_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/cmake/move_t_simConfig-version.cmake\n'}
+[31.651575] (move_t_sim) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/package.xml\n'}
+[31.655258] (move_t_sim) CommandEnded: {'returncode': 0}
+[31.722997] (-) TimerEvent: {}
+[31.731745] (move_t_sim) JobEnded: {'identifier': 'move_t_sim', 'rc': 0}
+[31.733072] (-) EventReactorShutdown: {}

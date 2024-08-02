@@ -211,6 +211,19 @@ moveTurtleSim/fast:
 .PHONY : moveTurtleSim/fast
 
 #=============================================================================
+# Target rules for targets named moveTurtleSim2
+
+# Build rule for target.
+moveTurtleSim2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moveTurtleSim2
+.PHONY : moveTurtleSim2
+
+# fast build rule for target.
+moveTurtleSim2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim2.dir/build.make CMakeFiles/moveTurtleSim2.dir/build
+.PHONY : moveTurtleSim2/fast
+
+#=============================================================================
 # Target rules for targets named moveTurtleBot
 
 # Build rule for target.
@@ -222,6 +235,19 @@ moveTurtleBot: cmake_check_build_system
 moveTurtleBot/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleBot.dir/build.make CMakeFiles/moveTurtleBot.dir/build
 .PHONY : moveTurtleBot/fast
+
+#=============================================================================
+# Target rules for targets named moveTurtleBot2
+
+# Build rule for target.
+moveTurtleBot2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 moveTurtleBot2
+.PHONY : moveTurtleBot2
+
+# fast build rule for target.
+moveTurtleBot2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleBot2.dir/build.make CMakeFiles/moveTurtleBot2.dir/build
+.PHONY : moveTurtleBot2/fast
 
 src/moveTurtle.o: src/moveTurtle.cpp.o
 .PHONY : src/moveTurtle.o
@@ -247,6 +273,30 @@ src/moveTurtle.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim.dir/build.make CMakeFiles/moveTurtleSim.dir/src/moveTurtle.cpp.s
 .PHONY : src/moveTurtle.cpp.s
 
+src/moveTurtle2.o: src/moveTurtle2.cpp.o
+.PHONY : src/moveTurtle2.o
+
+# target to build an object file
+src/moveTurtle2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim2.dir/build.make CMakeFiles/moveTurtleSim2.dir/src/moveTurtle2.cpp.o
+.PHONY : src/moveTurtle2.cpp.o
+
+src/moveTurtle2.i: src/moveTurtle2.cpp.i
+.PHONY : src/moveTurtle2.i
+
+# target to preprocess a source file
+src/moveTurtle2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim2.dir/build.make CMakeFiles/moveTurtleSim2.dir/src/moveTurtle2.cpp.i
+.PHONY : src/moveTurtle2.cpp.i
+
+src/moveTurtle2.s: src/moveTurtle2.cpp.s
+.PHONY : src/moveTurtle2.s
+
+# target to generate assembly for a file
+src/moveTurtle2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim2.dir/build.make CMakeFiles/moveTurtleSim2.dir/src/moveTurtle2.cpp.s
+.PHONY : src/moveTurtle2.cpp.s
+
 src/moveTurtleBot.o: src/moveTurtleBot.cpp.o
 .PHONY : src/moveTurtleBot.o
 
@@ -270,6 +320,30 @@ src/moveTurtleBot.s: src/moveTurtleBot.cpp.s
 src/moveTurtleBot.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleBot.dir/build.make CMakeFiles/moveTurtleBot.dir/src/moveTurtleBot.cpp.s
 .PHONY : src/moveTurtleBot.cpp.s
+
+src/moveTurtleBot2.o: src/moveTurtleBot2.cpp.o
+.PHONY : src/moveTurtleBot2.o
+
+# target to build an object file
+src/moveTurtleBot2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleBot2.dir/build.make CMakeFiles/moveTurtleBot2.dir/src/moveTurtleBot2.cpp.o
+.PHONY : src/moveTurtleBot2.cpp.o
+
+src/moveTurtleBot2.i: src/moveTurtleBot2.cpp.i
+.PHONY : src/moveTurtleBot2.i
+
+# target to preprocess a source file
+src/moveTurtleBot2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleBot2.dir/build.make CMakeFiles/moveTurtleBot2.dir/src/moveTurtleBot2.cpp.i
+.PHONY : src/moveTurtleBot2.cpp.i
+
+src/moveTurtleBot2.s: src/moveTurtleBot2.cpp.s
+.PHONY : src/moveTurtleBot2.s
+
+# target to generate assembly for a file
+src/moveTurtleBot2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleBot2.dir/build.make CMakeFiles/moveTurtleBot2.dir/src/moveTurtleBot2.cpp.s
+.PHONY : src/moveTurtleBot2.cpp.s
 
 src/moveTurtleBotcpp.o: src/moveTurtleBotcpp.cpp.o
 .PHONY : src/moveTurtleBotcpp.o
@@ -295,6 +369,30 @@ src/moveTurtleBotcpp.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleBot.dir/build.make CMakeFiles/moveTurtleBot.dir/src/moveTurtleBotcpp.cpp.s
 .PHONY : src/moveTurtleBotcpp.cpp.s
 
+src/moveTurtleBotcpp2.o: src/moveTurtleBotcpp2.cpp.o
+.PHONY : src/moveTurtleBotcpp2.o
+
+# target to build an object file
+src/moveTurtleBotcpp2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleBot2.dir/build.make CMakeFiles/moveTurtleBot2.dir/src/moveTurtleBotcpp2.cpp.o
+.PHONY : src/moveTurtleBotcpp2.cpp.o
+
+src/moveTurtleBotcpp2.i: src/moveTurtleBotcpp2.cpp.i
+.PHONY : src/moveTurtleBotcpp2.i
+
+# target to preprocess a source file
+src/moveTurtleBotcpp2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleBot2.dir/build.make CMakeFiles/moveTurtleBot2.dir/src/moveTurtleBotcpp2.cpp.i
+.PHONY : src/moveTurtleBotcpp2.cpp.i
+
+src/moveTurtleBotcpp2.s: src/moveTurtleBotcpp2.cpp.s
+.PHONY : src/moveTurtleBotcpp2.s
+
+# target to generate assembly for a file
+src/moveTurtleBotcpp2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleBot2.dir/build.make CMakeFiles/moveTurtleBot2.dir/src/moveTurtleBotcpp2.cpp.s
+.PHONY : src/moveTurtleBotcpp2.cpp.s
+
 src/moveTurtleSim.o: src/moveTurtleSim.cpp.o
 .PHONY : src/moveTurtleSim.o
 
@@ -319,6 +417,30 @@ src/moveTurtleSim.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim.dir/build.make CMakeFiles/moveTurtleSim.dir/src/moveTurtleSim.cpp.s
 .PHONY : src/moveTurtleSim.cpp.s
 
+src/moveTurtleSim2.o: src/moveTurtleSim2.cpp.o
+.PHONY : src/moveTurtleSim2.o
+
+# target to build an object file
+src/moveTurtleSim2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim2.dir/build.make CMakeFiles/moveTurtleSim2.dir/src/moveTurtleSim2.cpp.o
+.PHONY : src/moveTurtleSim2.cpp.o
+
+src/moveTurtleSim2.i: src/moveTurtleSim2.cpp.i
+.PHONY : src/moveTurtleSim2.i
+
+# target to preprocess a source file
+src/moveTurtleSim2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim2.dir/build.make CMakeFiles/moveTurtleSim2.dir/src/moveTurtleSim2.cpp.i
+.PHONY : src/moveTurtleSim2.cpp.i
+
+src/moveTurtleSim2.s: src/moveTurtleSim2.cpp.s
+.PHONY : src/moveTurtleSim2.s
+
+# target to generate assembly for a file
+src/moveTurtleSim2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/moveTurtleSim2.dir/build.make CMakeFiles/moveTurtleSim2.dir/src/moveTurtleSim2.cpp.s
+.PHONY : src/moveTurtleSim2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -335,19 +457,33 @@ help:
 	@echo "... move_t_sim_uninstall"
 	@echo "... uninstall"
 	@echo "... moveTurtleBot"
+	@echo "... moveTurtleBot2"
 	@echo "... moveTurtleSim"
+	@echo "... moveTurtleSim2"
 	@echo "... src/moveTurtle.o"
 	@echo "... src/moveTurtle.i"
 	@echo "... src/moveTurtle.s"
+	@echo "... src/moveTurtle2.o"
+	@echo "... src/moveTurtle2.i"
+	@echo "... src/moveTurtle2.s"
 	@echo "... src/moveTurtleBot.o"
 	@echo "... src/moveTurtleBot.i"
 	@echo "... src/moveTurtleBot.s"
+	@echo "... src/moveTurtleBot2.o"
+	@echo "... src/moveTurtleBot2.i"
+	@echo "... src/moveTurtleBot2.s"
 	@echo "... src/moveTurtleBotcpp.o"
 	@echo "... src/moveTurtleBotcpp.i"
 	@echo "... src/moveTurtleBotcpp.s"
+	@echo "... src/moveTurtleBotcpp2.o"
+	@echo "... src/moveTurtleBotcpp2.i"
+	@echo "... src/moveTurtleBotcpp2.s"
 	@echo "... src/moveTurtleSim.o"
 	@echo "... src/moveTurtleSim.i"
 	@echo "... src/moveTurtleSim.s"
+	@echo "... src/moveTurtleSim2.o"
+	@echo "... src/moveTurtleSim2.i"
+	@echo "... src/moveTurtleSim2.s"
 .PHONY : help
 
 
