@@ -105,3 +105,89 @@ https://gist.github.com/luncliff/6e2d4eb7ca29a0afd5b592f72b80cb5c
 12. threthold - Otsu 이진화 방법.
 13. casacade - 얼굴인식 / 성능좋고 빠르지만, xml 파일 필요하므로 프로젝트 적합에 쉽지않음
 14. hog - 사람인식하여 rectangle로 빨갛게 사각형 표시해주기.
+
+- - -
+
+### 2024-07-30 5일차
+
+ppt기반 ROS2 이론설명 <br>
+ROS2 다운로드 <br>
+1. https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
+2. 구글 < ros2 documentation humble > 검색
+3. ubuntu 데미안 → 우분투버전 22.0.4인지 체크, 험블인지 체크 → desk / base 중 택하여 설치 실습에선 desktop 설치함.
+4. sudo nano ~/.bashrc
+5. bashrc 가장 하단에 source /opt/ros/humble/setup.sh 작성 후 저장 컨트롤+s ,  +x
+6. 기본 홈경로에 임의의 워크스페이스 만들기  mkdir yhan_ws
+7. 만든 폴더로 들어가 colcon build —symlink-install
+8. ls로 체크해보면 3가지 파일 생김 build install log
+9. bashrc에 들어가 가장 아래에 source ~/yhan_ws/install/local_setup.bash  작성
+<br>
+turtlesim 예제 테스트<br>
+터미널창 3개<br>
+<br>
+- ros2 run turtlesim turtlesim_node<br>
+- ros2 run turtlesim turtle_teleop_key<br>
+- rqt | 창 출력되면 plugins ~ introspection ~ node graph<br>
+*Node : 최소 단위의 실행 가능한 프로세스를 가르킴<br>
+*ROS에서는 보통 최소한의 실행단위로 프로그램을 나누어 작업하게 된다<br>
+ws > colcon build > source ~/.bashrc || 세트로 사용하기.
+
+
+- - -
+
+### 2024-07-31 6일차
+
+yhan_ws -> simple_pkg_cpp 패키지 작성
+- hello_publisher_class2 : 분할컴파일 (헤더, 메인, cpp)
+- hello_subscriber : subscriber 노드
+- time_publusher_class : time 노드
+- time_subscriber : time subscriber 노드
+<br>
+move_t_sim 패키지 작성<br>
+moveTurtleSim.cpp : 터틀심 이동 노드<br>
+<br>
+최종실습<br>
+* 5개 노드 3개 토픽 사용.<br>
+* 노드 : mpub, msub, msub2, tpub, mtsub<br>
+* 토픽 : /message1: String ( mpub -> msub, mtsub) , /message2: String ( mpub -> msub2) , /time: Header ( tpub -> mtsub)<br>
+
+- - -
+
+### 2024-08-01 7일차
+
+터틀봇3 네트워크 설정 -> 공유기설치 -> 가상환경 bridgd 설치<br>
+network 설정 우클릭 > bridge > configure adapters > intel(R) wifi 선택<br>
+ifconfig → ens33: inet 체크<br>
+
+터틀봇 ssh 연결 ssh ubuntu@(turtlebot ip)<br>
+vscode remote ssh<br>
+
+터틀봇 패키지<br>
+ros2 run turtlebot3_teleop teleop keybord<br>
+robotis → 고객지원 e매뉴얼 → 다이나믹셀 시스템 → 터틀봇<br>
+3.quick start guide → pc setup → Install TurtleBot3 Packages<br>
+*ip가 같아야 node전달가능<br>
+
+터틀봇3 브링업<br>
+ROS_DOMAIN_ID 확인<br>
+bashrc -> export TURTLEBOT3_MODEL=burger<br>
+ros2 launch turtlebot3_bringup robot.launch.py<br>
+
+텔레옵키 노드 실행(노트북)<br>
+ros2 run turtlebot3_teleop teleop_keyboard<br>
+
+gazebo 설치<br>
+sudo apt install ros-humble-gazebo-*<br>
+
+turtlebot3 simulation 설치(깃 클론)<br>
+cd ~/yhan_ws/src<br>
+git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git<br>
+cd ~/turtlebot3_ws && colcon build --symlink-install<br>
+turtlebot3 simulation 실행<br>
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py<br>
+
+터틈심 사각형 움직임 구현 코드 작성 > moveTurtleSim2.cpp<br>
+
+- - -
+
+### 2024-08-02 8일차
