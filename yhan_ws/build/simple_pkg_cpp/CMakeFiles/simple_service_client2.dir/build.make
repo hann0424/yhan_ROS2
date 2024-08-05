@@ -107,10 +107,6 @@ simple_service_client2: /opt/ros/humble/lib/libexample_interfaces__rosidl_typesu
 simple_service_client2: /opt/ros/humble/lib/libexample_interfaces__rosidl_generator_py.so
 simple_service_client2: /opt/ros/humble/lib/liblibstatistics_collector.so
 simple_service_client2: /opt/ros/humble/lib/librcl.so
-simple_service_client2: /opt/ros/humble/lib/librmw_implementation.so
-simple_service_client2: /opt/ros/humble/lib/libament_index_cpp.so
-simple_service_client2: /opt/ros/humble/lib/librcl_logging_spdlog.so
-simple_service_client2: /opt/ros/humble/lib/librcl_logging_interface.so
 simple_service_client2: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
 simple_service_client2: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
 simple_service_client2: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
@@ -119,6 +115,10 @@ simple_service_client2: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesuppor
 simple_service_client2: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
 simple_service_client2: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
 simple_service_client2: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
+simple_service_client2: /opt/ros/humble/lib/librmw_implementation.so
+simple_service_client2: /opt/ros/humble/lib/libament_index_cpp.so
+simple_service_client2: /opt/ros/humble/lib/librcl_logging_spdlog.so
+simple_service_client2: /opt/ros/humble/lib/librcl_logging_interface.so
 simple_service_client2: /opt/ros/humble/lib/librcl_yaml_param_parser.so
 simple_service_client2: /opt/ros/humble/lib/libyaml.so
 simple_service_client2: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so

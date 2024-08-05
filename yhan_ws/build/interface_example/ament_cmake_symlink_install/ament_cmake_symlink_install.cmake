@@ -361,6 +361,9 @@ include("/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/ament_cmake_symlin
 # install(FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_adapter/interface_example/srv/AddTwoInt.idl" "DESTINATION" "share/interface_example/srv")
 ament_cmake_symlink_install_files("/home/yhan/yhan_ROS2/yhan_ws/src/interface_example" FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_adapter/interface_example/srv/AddTwoInt.idl" "DESTINATION" "share/interface_example/srv")
 
+# install(FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_adapter/interface_example/action/Fibonacci.idl" "DESTINATION" "share/interface_example/action")
+ament_cmake_symlink_install_files("/home/yhan/yhan_ROS2/yhan_ws/src/interface_example" FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_adapter/interface_example/action/Fibonacci.idl" "DESTINATION" "share/interface_example/action")
+
 # install(FILES "/home/yhan/yhan_ROS2/yhan_ws/src/interface_example/srv/AddTwoInt.srv" "DESTINATION" "share/interface_example/srv")
 ament_cmake_symlink_install_files("/home/yhan/yhan_ROS2/yhan_ws/src/interface_example" FILES "/home/yhan/yhan_ROS2/yhan_ws/src/interface_example/srv/AddTwoInt.srv" "DESTINATION" "share/interface_example/srv")
 
@@ -369,6 +372,9 @@ ament_cmake_symlink_install_files("/home/yhan/yhan_ROS2/yhan_ws/src/interface_ex
 
 # install(FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_cmake/srv/AddTwoInt_Response.msg" "DESTINATION" "share/interface_example/srv")
 ament_cmake_symlink_install_files("/home/yhan/yhan_ROS2/yhan_ws/src/interface_example" FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_cmake/srv/AddTwoInt_Response.msg" "DESTINATION" "share/interface_example/srv")
+
+# install(FILES "/home/yhan/yhan_ROS2/yhan_ws/src/interface_example/action/Fibonacci.action" "DESTINATION" "share/interface_example/action")
+ament_cmake_symlink_install_files("/home/yhan/yhan_ROS2/yhan_ws/src/interface_example" FILES "/home/yhan/yhan_ROS2/yhan_ws/src/interface_example/action/Fibonacci.action" "DESTINATION" "share/interface_example/action")
 
 # install(FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/interface_example" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/yhan/yhan_ROS2/yhan_ws/src/interface_example" FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/interface_example" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
@@ -409,6 +415,9 @@ ament_cmake_symlink_install_files("/home/yhan/yhan_ROS2/yhan_ws/src/interface_ex
 # install(FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/interface_example/cmake")
 ament_cmake_symlink_install_files("/home/yhan/yhan_ROS2/yhan_ws/src/interface_example" FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/interface_example/cmake")
 
+# install(FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/interface_example/cmake")
+ament_cmake_symlink_install_files("/home/yhan/yhan_ROS2/yhan_ws/src/interface_example" FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/interface_example/cmake")
+
 # install(FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/interface_example/cmake")
 ament_cmake_symlink_install_files("/home/yhan/yhan_ROS2/yhan_ws/src/interface_example" FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/interface_example/cmake")
 
@@ -420,9 +429,6 @@ ament_cmake_symlink_install_files("/home/yhan/yhan_ROS2/yhan_ws/src/interface_ex
 
 # install(FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/interface_example/cmake")
 ament_cmake_symlink_install_files("/home/yhan/yhan_ROS2/yhan_ws/src/interface_example" FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/interface_example/cmake")
-
-# install(FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/interface_example/cmake")
-ament_cmake_symlink_install_files("/home/yhan/yhan_ROS2/yhan_ws/src/interface_example" FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/interface_example/cmake")
 
 # install(FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/interface_example/cmake")
 ament_cmake_symlink_install_files("/home/yhan/yhan_ROS2/yhan_ws/src/interface_example" FILES "/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/interface_example/cmake")

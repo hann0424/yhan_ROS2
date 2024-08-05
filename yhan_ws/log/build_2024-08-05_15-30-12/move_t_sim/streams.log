@@ -1,0 +1,64 @@
+[0.023s] Invoking command in '/home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim -- -j2 -l2
+[0.096s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.269s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.289s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[0.372s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.372s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.386s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.415s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.454s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.644s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.648s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.868s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.163s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.266s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.410s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[1.428s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.546s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.547s] -- Configured cppcheck include dirs: /home/yhan/yhan_ROS2/yhan_ws/src/move_t_sim/include
+[1.547s] -- Configured cppcheck exclude dirs and/or files: 
+[1.550s] -- Added test 'lint_cmake' to check CMake code style
+[1.552s] -- Added test 'uncrustify' to check C / C++ code style
+[1.552s] -- Configured uncrustify additional arguments: 
+[1.555s] -- Added test 'xmllint' to check XML markup files
+[1.562s] -- Configuring done
+[1.629s] -- Generating done
+[1.633s] -- Build files have been written to: /home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim
+[1.695s] [35m[1mConsolidate compiler generated dependencies of target moveTurtleSim[0m
+[1.705s] [35m[1mConsolidate compiler generated dependencies of target moveTurtleBot[0m
+[1.757s] [ 11%] [32mBuilding CXX object CMakeFiles/moveTurtleSim.dir/src/moveTurtleSim.cpp.o[0m
+[1.785s] [ 22%] [32mBuilding CXX object CMakeFiles/moveTurtleBot.dir/src/moveTurtleBot.cpp.o[0m
+[14.481s] [ 33%] [32mBuilding CXX object CMakeFiles/moveTurtleBot.dir/src/moveTurtleBotcpp.cpp.o[0m
+[14.747s] [ 44%] [32mBuilding CXX object CMakeFiles/moveTurtleSim.dir/src/moveTurtle.cpp.o[0m
+[27.609s] [ 55%] [32m[1mLinking CXX executable moveTurtleSim[0m
+[28.270s] [ 55%] Built target moveTurtleSim
+[36.214s] [ 66%] [32m[1mLinking CXX executable moveTurtleBot[0m
+[37.228s] [ 66%] Built target moveTurtleBot
+[37.280s] [35m[1mConsolidate compiler generated dependencies of target moveTurtleBot2[0m
+[37.326s] [ 77%] [32mBuilding CXX object CMakeFiles/moveTurtleBot2.dir/src/moveTurtleBot2.cpp.o[0m
+[43.209s] [ 88%] [32mBuilding CXX object CMakeFiles/moveTurtleBot2.dir/src/moveTurtleBotcpp2.cpp.o[0m
+[60.539s] [100%] [32m[1mLinking CXX executable moveTurtleBot2[0m
+[61.155s] [100%] Built target moveTurtleBot2
+[61.172s] Invoked command in '/home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim -- -j2 -l2
+[61.239s] Invoking command in '/home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim
+[61.250s] -- Install configuration: ""
+[61.251s] -- Execute custom install script
+[61.252s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/lib/move_t_sim/moveTurtleSim
+[61.253s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/lib/move_t_sim/moveTurtleBot
+[61.254s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/lib/move_t_sim/moveTurtleBot2
+[61.254s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/ament_index/resource_index/package_run_dependencies/move_t_sim
+[61.255s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/ament_index/resource_index/parent_prefix_path/move_t_sim
+[61.255s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/environment/ament_prefix_path.sh
+[61.257s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/environment/ament_prefix_path.dsv
+[61.257s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/environment/path.sh
+[61.258s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/environment/path.dsv
+[61.259s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/local_setup.bash
+[61.259s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/local_setup.sh
+[61.260s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/local_setup.zsh
+[61.260s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/local_setup.dsv
+[61.261s] -- Symlinking: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/package.dsv
+[61.272s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/ament_index/resource_index/packages/move_t_sim
+[61.272s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/cmake/move_t_simConfig.cmake
+[61.272s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/cmake/move_t_simConfig-version.cmake
+[61.272s] -- Up-to-date symlink: /home/yhan/yhan_ROS2/yhan_ws/install/move_t_sim/share/move_t_sim/package.xml
+[61.273s] Invoked command in '/home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/yhan/yhan_ROS2/yhan_ws/build/move_t_sim

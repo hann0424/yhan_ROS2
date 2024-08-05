@@ -70,8 +70,11 @@ interface_example__py/CMakeFiles/interface_example__py: rosidl_generator_py/inte
 interface_example__py/CMakeFiles/interface_example__py: rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_introspection_c.c
 interface_example__py/CMakeFiles/interface_example__py: rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_c.c
 interface_example__py/CMakeFiles/interface_example__py: rosidl_generator_py/interface_example/srv/_add_two_int.py
+interface_example__py/CMakeFiles/interface_example__py: rosidl_generator_py/interface_example/action/_fibonacci.py
 interface_example__py/CMakeFiles/interface_example__py: rosidl_generator_py/interface_example/srv/__init__.py
+interface_example__py/CMakeFiles/interface_example__py: rosidl_generator_py/interface_example/action/__init__.py
 interface_example__py/CMakeFiles/interface_example__py: rosidl_generator_py/interface_example/srv/_add_two_int_s.c
+interface_example__py/CMakeFiles/interface_example__py: rosidl_generator_py/interface_example/action/_fibonacci_s.c
 
 rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -87,6 +90,14 @@ rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport
 rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interface_example/srv/AddTwoInt.idl
+rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/interface_example/action/Fibonacci.idl
+rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python code for ROS interfaces"
 	cd /home/yhan/yhan_ROS2/yhan_ws/build/interface_example/interface_example__py && /usr/bin/python3 /opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py --generator-arguments-file /home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_generator_py__arguments.json --typesupport-impls "rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c;rosidl_typesupport_c"
 
@@ -99,16 +110,28 @@ rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport
 rosidl_generator_py/interface_example/srv/_add_two_int.py: rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interface_example/srv/_add_two_int.py
 
+rosidl_generator_py/interface_example/action/_fibonacci.py: rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interface_example/action/_fibonacci.py
+
 rosidl_generator_py/interface_example/srv/__init__.py: rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interface_example/srv/__init__.py
 
+rosidl_generator_py/interface_example/action/__init__.py: rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interface_example/action/__init__.py
+
 rosidl_generator_py/interface_example/srv/_add_two_int_s.c: rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interface_example/srv/_add_two_int_s.c
+
+rosidl_generator_py/interface_example/action/_fibonacci_s.c: rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/interface_example/action/_fibonacci_s.c
 
 interface_example__py: interface_example__py/CMakeFiles/interface_example__py
 interface_example__py: rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_c.c
 interface_example__py: rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c
 interface_example__py: rosidl_generator_py/interface_example/_interface_example_s.ep.rosidl_typesupport_introspection_c.c
+interface_example__py: rosidl_generator_py/interface_example/action/__init__.py
+interface_example__py: rosidl_generator_py/interface_example/action/_fibonacci.py
+interface_example__py: rosidl_generator_py/interface_example/action/_fibonacci_s.c
 interface_example__py: rosidl_generator_py/interface_example/srv/__init__.py
 interface_example__py: rosidl_generator_py/interface_example/srv/_add_two_int.py
 interface_example__py: rosidl_generator_py/interface_example/srv/_add_two_int_s.c

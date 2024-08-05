@@ -83,6 +83,14 @@ rosidl_generator_c/interface_example/srv/add_two_int.h: /opt/ros/humble/share/ro
 rosidl_generator_c/interface_example/srv/add_two_int.h: /opt/ros/humble/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/interface_example/srv/add_two_int.h: /opt/ros/humble/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/interface_example/srv/add_two_int.h: rosidl_adapter/interface_example/srv/AddTwoInt.idl
+rosidl_generator_c/interface_example/srv/add_two_int.h: rosidl_adapter/interface_example/action/Fibonacci.idl
+rosidl_generator_c/interface_example/srv/add_two_int.h: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_c/interface_example/srv/add_two_int.h: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_c/interface_example/srv/add_two_int.h: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_c/interface_example/srv/add_two_int.h: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_c/interface_example/srv/add_two_int.h: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_c/interface_example/srv/add_two_int.h: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_c/interface_example/srv/add_two_int.h: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_generator_c__arguments.json
 
@@ -95,8 +103,23 @@ rosidl_generator_c/interface_example/srv/detail/add_two_int__struct.h: rosidl_ge
 rosidl_generator_c/interface_example/srv/detail/add_two_int__type_support.h: rosidl_generator_c/interface_example/srv/add_two_int.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface_example/srv/detail/add_two_int__type_support.h
 
+rosidl_generator_c/interface_example/action/fibonacci.h: rosidl_generator_c/interface_example/srv/add_two_int.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface_example/action/fibonacci.h
+
+rosidl_generator_c/interface_example/action/detail/fibonacci__functions.h: rosidl_generator_c/interface_example/srv/add_two_int.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface_example/action/detail/fibonacci__functions.h
+
+rosidl_generator_c/interface_example/action/detail/fibonacci__struct.h: rosidl_generator_c/interface_example/srv/add_two_int.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface_example/action/detail/fibonacci__struct.h
+
+rosidl_generator_c/interface_example/action/detail/fibonacci__type_support.h: rosidl_generator_c/interface_example/srv/add_two_int.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface_example/action/detail/fibonacci__type_support.h
+
 rosidl_generator_c/interface_example/srv/detail/add_two_int__functions.c: rosidl_generator_c/interface_example/srv/add_two_int.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface_example/srv/detail/add_two_int__functions.c
+
+rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c: rosidl_generator_c/interface_example/srv/add_two_int.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c
 
 CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/srv/detail/add_two_int__functions.c.o: CMakeFiles/interface_example__rosidl_generator_c.dir/flags.make
 CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/srv/detail/add_two_int__functions.c.o: rosidl_generator_c/interface_example/srv/detail/add_two_int__functions.c
@@ -112,19 +135,38 @@ CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interfac
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/srv/detail/add_two_int__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_generator_c/interface_example/srv/detail/add_two_int__functions.c -o CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/srv/detail/add_two_int__functions.c.s
 
+CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c.o: CMakeFiles/interface_example__rosidl_generator_c.dir/flags.make
+CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c.o: rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c
+CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c.o: CMakeFiles/interface_example__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c.o -MF CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c.o.d -o CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c.o -c /home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c
+
+CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c > CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c.i
+
+CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/yhan/yhan_ROS2/yhan_ws/build/interface_example/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c -o CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c.s
+
 # Object files for target interface_example__rosidl_generator_c
 interface_example__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/srv/detail/add_two_int__functions.c.o"
+"CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/srv/detail/add_two_int__functions.c.o" \
+"CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c.o"
 
 # External object files for target interface_example__rosidl_generator_c
 interface_example__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libinterface_example__rosidl_generator_c.so: CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/srv/detail/add_two_int__functions.c.o
+libinterface_example__rosidl_generator_c.so: CMakeFiles/interface_example__rosidl_generator_c.dir/rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c.o
 libinterface_example__rosidl_generator_c.so: CMakeFiles/interface_example__rosidl_generator_c.dir/build.make
+libinterface_example__rosidl_generator_c.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
+libinterface_example__rosidl_generator_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
+libinterface_example__rosidl_generator_c.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 libinterface_example__rosidl_generator_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libinterface_example__rosidl_generator_c.so: /opt/ros/humble/lib/librcutils.so
 libinterface_example__rosidl_generator_c.so: CMakeFiles/interface_example__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libinterface_example__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/yhan/yhan_ROS2/yhan_ws/build/interface_example/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libinterface_example__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interface_example__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +177,11 @@ CMakeFiles/interface_example__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/interface_example__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/interface_example__rosidl_generator_c.dir/clean
 
+CMakeFiles/interface_example__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_example/action/detail/fibonacci__functions.c
+CMakeFiles/interface_example__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_example/action/detail/fibonacci__functions.h
+CMakeFiles/interface_example__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_example/action/detail/fibonacci__struct.h
+CMakeFiles/interface_example__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_example/action/detail/fibonacci__type_support.h
+CMakeFiles/interface_example__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_example/action/fibonacci.h
 CMakeFiles/interface_example__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_example/srv/add_two_int.h
 CMakeFiles/interface_example__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_example/srv/detail/add_two_int__functions.c
 CMakeFiles/interface_example__rosidl_generator_c.dir/depend: rosidl_generator_c/interface_example/srv/detail/add_two_int__functions.h

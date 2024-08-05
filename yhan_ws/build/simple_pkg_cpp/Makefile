@@ -353,6 +353,32 @@ simple_service_client2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_service_client2.dir/build.make CMakeFiles/simple_service_client2.dir/build
 .PHONY : simple_service_client2/fast
 
+#=============================================================================
+# Target rules for targets named simple_action_server
+
+# Build rule for target.
+simple_action_server: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_action_server
+.PHONY : simple_action_server
+
+# fast build rule for target.
+simple_action_server/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_server.dir/build.make CMakeFiles/simple_action_server.dir/build
+.PHONY : simple_action_server/fast
+
+#=============================================================================
+# Target rules for targets named simple_action_client
+
+# Build rule for target.
+simple_action_client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 simple_action_client
+.PHONY : simple_action_client
+
+# fast build rule for target.
+simple_action_client/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_client.dir/build.make CMakeFiles/simple_action_client.dir/build
+.PHONY : simple_action_client/fast
+
 src/helloOpenCV.o: src/helloOpenCV.cpp.o
 .PHONY : src/helloOpenCV.o
 
@@ -544,6 +570,54 @@ src/publisher.s: src/publisher.cpp.s
 src/publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hello_publisher_class2.dir/build.make CMakeFiles/hello_publisher_class2.dir/src/publisher.cpp.s
 .PHONY : src/publisher.cpp.s
+
+src/simple_action_client.o: src/simple_action_client.cpp.o
+.PHONY : src/simple_action_client.o
+
+# target to build an object file
+src/simple_action_client.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_client.dir/build.make CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.o
+.PHONY : src/simple_action_client.cpp.o
+
+src/simple_action_client.i: src/simple_action_client.cpp.i
+.PHONY : src/simple_action_client.i
+
+# target to preprocess a source file
+src/simple_action_client.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_client.dir/build.make CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.i
+.PHONY : src/simple_action_client.cpp.i
+
+src/simple_action_client.s: src/simple_action_client.cpp.s
+.PHONY : src/simple_action_client.s
+
+# target to generate assembly for a file
+src/simple_action_client.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_client.dir/build.make CMakeFiles/simple_action_client.dir/src/simple_action_client.cpp.s
+.PHONY : src/simple_action_client.cpp.s
+
+src/simple_action_server.o: src/simple_action_server.cpp.o
+.PHONY : src/simple_action_server.o
+
+# target to build an object file
+src/simple_action_server.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_server.dir/build.make CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.o
+.PHONY : src/simple_action_server.cpp.o
+
+src/simple_action_server.i: src/simple_action_server.cpp.i
+.PHONY : src/simple_action_server.i
+
+# target to preprocess a source file
+src/simple_action_server.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_server.dir/build.make CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.i
+.PHONY : src/simple_action_server.cpp.i
+
+src/simple_action_server.s: src/simple_action_server.cpp.s
+.PHONY : src/simple_action_server.s
+
+# target to generate assembly for a file
+src/simple_action_server.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/simple_action_server.dir/build.make CMakeFiles/simple_action_server.dir/src/simple_action_server.cpp.s
+.PHONY : src/simple_action_server.cpp.s
 
 src/simple_service_client.o: src/simple_service_client.cpp.o
 .PHONY : src/simple_service_client.o
@@ -759,6 +833,8 @@ help:
 	@echo "... hello_publisher_class2"
 	@echo "... hello_subscriber_class"
 	@echo "... helloword"
+	@echo "... simple_action_client"
+	@echo "... simple_action_server"
 	@echo "... simple_service_client"
 	@echo "... simple_service_client2"
 	@echo "... simple_service_server"
@@ -788,6 +864,12 @@ help:
 	@echo "... src/publisher.o"
 	@echo "... src/publisher.i"
 	@echo "... src/publisher.s"
+	@echo "... src/simple_action_client.o"
+	@echo "... src/simple_action_client.i"
+	@echo "... src/simple_action_client.s"
+	@echo "... src/simple_action_server.o"
+	@echo "... src/simple_action_server.i"
+	@echo "... src/simple_action_server.s"
 	@echo "... src/simple_service_client.o"
 	@echo "... src/simple_service_client.i"
 	@echo "... src/simple_service_client.s"
